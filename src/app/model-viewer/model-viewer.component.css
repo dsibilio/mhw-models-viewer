@@ -1,0 +1,32 @@
+.type-icon {
+  color: #757575;
+  margin-right: 5px;
+}
+
+.node-icon {
+  margin-right: 5px;
+  height: 32px;
+  width: 32px;
+}
+
+#category-tree-container {
+  width: 10%;
+}
+
+#model-view-container {
+  width: 80%;
+}
+
+#model-list-container {
+  width: 10%;
+}
+
+.filter-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.filter-input {
+  width: 100%;
+}

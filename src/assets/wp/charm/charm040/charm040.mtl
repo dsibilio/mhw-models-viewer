@@ -1,0 +1,728 @@
+# Blender MTL File: 'None'
+# Material Count: 66
+
+newmtl Ch_Wp_Mt__2
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.004
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.005
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.006
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.007
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.008
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.009
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.010
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.011
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.012
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.013
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.014
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.015
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.016
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.017
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.018
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.019
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.020
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.021
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.022
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.023
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.024
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.025
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.026
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.027
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.028
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.029
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.030
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.031
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.032
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.033
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.034
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.035
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.036
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.037
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.038
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.039
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.040
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.041
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.042
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.043
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.044
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.045
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.046
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.047
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.048
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.049
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.050
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.051
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.052
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.053
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.054
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.055
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.056
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.057
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.058
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.059
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.060
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.061
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.062
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.063
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png
+
+newmtl Ch_Wp_Mt__2_charm040_BML.png.064
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\charm\charm040\mod\charm040_BML.png

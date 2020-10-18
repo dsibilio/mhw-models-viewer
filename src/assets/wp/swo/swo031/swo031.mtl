@@ -1,0 +1,68 @@
+# Blender MTL File: 'None'
+# Material Count: 6
+
+newmtl Ch_Wp_Mt__3
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\swo\swo031\mod\swo031_BML.png
+
+newmtl Ch_Wp_Mt__3_swo031_BML.png
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\swo\swo031\mod\swo031_BML.png
+
+newmtl Ch_Wp_Mt__3_swo031_BML.png.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\swo\swo031\mod\swo031_BML.png
+
+newmtl Ch_Wp_Mt__3_swo031_BML.png.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\swo\swo031\mod\swo031_BML.png
+
+newmtl Ch_Wp_Mt__3_swo031_BML.png.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\swo\swo031\mod\swo031_BML.png
+
+newmtl Ch_Wp_Mt__3_swo031_BML.png.004
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\swo\swo031\mod\swo031_BML.png
