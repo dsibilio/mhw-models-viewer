@@ -1,7 +1,9 @@
 <div id="category-tree-container">
   <mat-tree [dataSource]="dataSource" [treeControl]="treeControl">
     <mat-tree-node *matTreeNodeDef="let node" matTreeNodeToggle matTreeNodePadding [matTreeNodePaddingIndent]="10"
-      class="list-item">
+      (click)=selectCategory(node.name)
+      class="list-item"
+      [ngClass]="{ 'selected-list-item' : node.name === selectedCategory }">
       <button mat-icon-button disabled></button>
 
       <ng-container *ngIf="node.type === 'folder'; else specificIconTemplate">
@@ -53,5 +55,9 @@
 </div>
 
 <div id="model-list-container">
-  
+  <div *ngFor="let model of getModelsByCategory(selectedCategory)">
+    <div *ngFor="let alias of model.aliases">
+      <p class="compact-list-item">{{ alias }}</p>
+    </div>
+  </div>
 </div>

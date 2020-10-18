@@ -19,6 +19,9 @@
 
 #model-list-container {
   width: 10%;
+  max-height: 85vh;
+  overflow-x: hidden;
+  overflow-y: auto
 }
 
 .filter-form {

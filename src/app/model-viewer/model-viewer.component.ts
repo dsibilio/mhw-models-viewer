@@ -2,11 +2,11 @@ import { Component, HostListener } from '@angular/core';
 import { MatTreeFlatDataSource, MatTreeFlattener } from '@angular/material/tree';
 import { FlatTreeControl } from '@angular/cdk/tree';
 import { categories } from './categories';
+import { ModelsDataService } from '../models-data.service';
 
 import {Observable} from 'rxjs';
 import {map, startWith} from 'rxjs/operators';
 import {FormControl} from '@angular/forms';
-
 
 /** File node data with possible child nodes. */
 export interface FileNode {
@@ -43,11 +43,15 @@ export class ModelViewerComponent {
   /** The MatTreeFlatDataSource connects the control and flattener to provide data. */
   dataSource: MatTreeFlatDataSource<FileNode, FlatTreeNode>;
 
+  selectedCategory: string;
+
   filterFormControl = new FormControl();
   options: string[] = ['One', 'Two', 'Three'];
   filteredOptions: Observable<string[]>;
 
-  constructor() {
+  constructor(
+    private modelsDataService: ModelsDataService
+  ) {
     this.treeFlattener = new MatTreeFlattener(
       this.transformer,
       this.getLevel,
@@ -69,6 +73,14 @@ export class ModelViewerComponent {
   private _filter(value: string): string[] {
     const filterValue = value.toLowerCase();
     return this.options.filter(option => option.toLowerCase().indexOf(filterValue) != -1);
+  }
+
+  selectCategory(category: string) {
+    this.selectedCategory = category
+  }
+
+  getModelsByCategory(category: string) {
+    return this.modelsDataService.getModelsByCategory(category)
   }
 
   /** Transform the data to something the tree can read. */

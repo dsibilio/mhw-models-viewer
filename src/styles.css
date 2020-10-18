@@ -127,6 +127,22 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     background-color: #EEEEEE;
   }
 
+  .compact-list-item {
+    width: 100%;
+    padding: 1px 1px;
+    margin: 0 0 2px !important;
+    border-radius: 5px;
+    background-color: #EEEEEE;
+  }
+
+  .compact-list-item:hover {
+    background-color: lightgrey;
+  }
+
   .list-item:hover {
+    background-color: lightgrey;
+  }
+
+  .selected-list-item {
     background-color: lightgrey;
   }
