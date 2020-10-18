@@ -46,8 +46,7 @@ export class ModelViewerComponent {
   selectedCategory: string;
 
   filterFormControl = new FormControl();
-  options: string[] = ['One', 'Two', 'Three'];
-  filteredOptions: Observable<string[]>;
+  filteredOptions: Observable<any>;
 
   constructor(
     private modelsDataService: ModelsDataService
@@ -71,16 +70,15 @@ export class ModelViewerComponent {
   }
 
   private _filter(value: string): string[] {
-    const filterValue = value.toLowerCase();
-    return this.options.filter(option => option.toLowerCase().indexOf(filterValue) != -1);
+    return this.modelsDataService.getMatchingAliases(value)
   }
 
   selectCategory(category: string) {
     this.selectedCategory = category
   }
 
-  getModelsByCategory(category: string) {
-    return this.modelsDataService.getModelsByCategory(category)
+  getAliasesByCategory(category: string): string[] {
+    return this.modelsDataService.getAliasesByCategory(category).sort()
   }
 
   /** Transform the data to something the tree can read. */

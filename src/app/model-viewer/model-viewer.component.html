@@ -55,9 +55,7 @@
 </div>
 
 <div id="model-list-container">
-  <div *ngFor="let model of getModelsByCategory(selectedCategory)">
-    <div *ngFor="let alias of model.aliases">
+  <div *ngFor="let alias of getAliasesByCategory(selectedCategory)">
       <p class="compact-list-item">{{ alias }}</p>
-    </div>
   </div>
 </div>

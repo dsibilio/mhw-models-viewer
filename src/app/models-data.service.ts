@@ -6,10 +6,47 @@ import models from '../assets/weapons.json';
 })
 export class ModelsDataService {
 
-  constructor() { }
+  modelsByAlias = new Map<string, any>()
+  aliasesByCategory = new Map<string, string[]>()
+  aliases = []
 
-  getModelsByCategory(category: string) {
-    return models.filter(model => model.category === category)
+  constructor() { 
+    models.forEach(model =>
+      model.aliases.forEach(alias => {
+        this.modelsByAlias.set(alias, model)
+        this.aliases.push(alias)
+
+        let currentAliases = this.aliasesByCategory.get(model.category)
+        if(currentAliases === undefined) {
+          currentAliases = [ alias ]
+          this.aliasesByCategory.set(model.category, currentAliases)
+        } else {
+          currentAliases.push(alias)
+        }
+      })
+    )
+  }
+
+  getModels() {
+    return models    
+  }
+
+  getMatchingAliases(aliasFilter: string): string[] {
+    aliasFilter = aliasFilter.toLowerCase()
+
+    if(aliasFilter.length > 2)
+      return this.aliases.filter(alias => alias.toLowerCase().indexOf(aliasFilter) != -1)
+
+    return []
+  }
+
+  getModelByAlias(alias: string) {
+    return this.modelsByAlias.get(alias)
+  }
+
+  getAliasesByCategory(category: string): string[] {
+    let result = this.aliasesByCategory.get(category)
+    return result != undefined ? result : []
   }
 
 }
