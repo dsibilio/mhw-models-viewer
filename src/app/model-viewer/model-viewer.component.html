@@ -54,10 +54,10 @@
     width="700%" height="700%"></canvas>
 </div>
 
-<div id="model-list-container">
-  <div *ngFor="let alias of getAliasesByCategory(selectedCategory)">
-    <p class="compact-list-item" (click)=selectModelByAlias(alias)
-      [ngClass]="{'selected-list-item': alias === selectedAlias}">
+<div #modelListContainer id="model-list-container">
+  <div *ngFor="let alias of aliasesByCategory">
+    <p class="compact-list-item" (click)="selectModelByAlias(alias); modelListContainer.scrollTop = 0"
+      [ngClass]="{'selected-list-item bigger-item': alias === selectedAlias}">
       {{ alias }}
     </p>
   </div>

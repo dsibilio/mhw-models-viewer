@@ -42,6 +42,7 @@ export class ModelViewerComponent {
   /** The MatTreeFlatDataSource connects the control and flattener to provide data. */
   dataSource: MatTreeFlatDataSource<FileNode, FlatTreeNode>;
 
+  aliasesByCategory: string[];
   selectedAlias: string;
   selectedCategory: string;
   selectedModel;
@@ -88,6 +89,16 @@ export class ModelViewerComponent {
 
   selectCategory(category: string) {
     this.selectedCategory = category;
+    this.aliasesByCategory = this.modelsDataService.getAliasesByCategory(this.selectedCategory).sort();
+    this.shiftSelectedElementToTop(this.selectedAlias);
+  }
+
+  shiftSelectedElementToTop(alias: string) {
+    if(alias != undefined) {
+      const index = this.aliasesByCategory.indexOf(alias);
+      this.aliasesByCategory.unshift(this.aliasesByCategory[index]);
+      this.aliasesByCategory.splice(index + 1, 1);
+    }
   }
 
   onFilterSubmit() {
@@ -109,13 +120,14 @@ export class ModelViewerComponent {
   }
 
   selectModelByAlias(alias: string) {
+    if(this.selectedModel != undefined) {
+      this.aliasesByCategory.shift();
+    }
+
     this.selectedAlias = alias;
     this.selectedModel = this.modelsDataService.getModelByAlias(alias);
-    this.selectedCategory = this.selectedModel.category;
-  }
-
-  getAliasesByCategory(category: string): string[] {
-    return this.modelsDataService.getAliasesByCategory(category).sort();
+    this.selectCategory(this.selectedModel.category);
+    this.shiftSelectedElementToTop(alias);
   }
 
   /** Transform the data to something the tree can read. */

@@ -47,8 +47,8 @@ export class ModelsDataService {
   }
 
   getAliasesByCategory(category: string): string[] {
-    let result = this.aliasesByCategory.get(category)
-    return result != undefined ? result : []
+    let result = this.aliasesByCategory.get(category);
+    return result != undefined ? result.slice() : []
   }
 
 }

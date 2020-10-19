@@ -145,4 +145,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
   .selected-list-item {
     background-color: lightgrey;
+    font-weight: bold;
+  }
+
+  .bigger-item {
+    padding: 8px 8px;
+    font-size: large;
   }
