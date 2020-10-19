@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 
+import json
 import os
 import shutil
-import json
-import requests
-import lxml.html as lh
+from collections import defaultdict
 from pathlib import Path
-from bs4 import BeautifulSoup
+
+import lxml.html as lh
+import requests
+
 
 class Weapon:
     def __init__(self, id, aliases, obj_path, mtl_path, tex_path, category):
@@ -23,6 +25,8 @@ wp_category_mapping = { 'bow' : 'Bow', 'c_axe' : 'Charge Blade', 'g_lance' : 'Gu
  'hbg' : 'Heavy Bowgun', 'lance' : 'Lance', 'l_sword' : 'Great Sword', 'lbg' : 'Light Bowgun',
   'rod' : 'Insect Glaive', 's_axe' : 'Switch Axe', 'sword' : 'Sword and Shield', 
   'tachi' : 'Long Sword', 'whistle' : 'Hunting Horn', 'w_sword' : 'Dual Blades' }
+
+aliases_by_category = defaultdict(list)
 
 mod_extension = '.obj'
 mat_extension = '.mtl'
@@ -59,22 +63,39 @@ for subdir, dirs, files in os.walk(rootdir):
                 category = wp_category_mapping.get(cells[0].text_content())
 
     if aliases:
-        #get relative paths for 3d model files
-        obj_path = None
-        mtl_path = None
-        tex_path = None
-        for file in files:
-            relative_file_path = os.path.join(wp_identifier, file).replace('\\', '/')
-            if(file.endswith(mod_extension)):
-                obj_path = relative_file_path
-            elif(file.endswith(mat_extension)):
-                mtl_path = relative_file_path
-            elif(file.endswith(tex_extension)):
-                tex_path = relative_file_path
-        
-        id += 1
-        weapons.append(Weapon(id, aliases, obj_path, mtl_path, tex_path, category).__dict__)
-        print(Weapon(id, aliases, obj_path, mtl_path, tex_path, category).__dict__) 
+        #remove duplicates from aliases
+        aliases = list(dict.fromkeys(aliases))
+
+        #check that current model is not already mapped
+        is_duplicate = False
+        previous_aliases = aliases_by_category[category]
+        for previous_alias in previous_aliases:
+            if all(elem in previous_alias for elem in aliases):
+                is_duplicate = True
+                break
+
+        if not is_duplicate:
+            #get relative paths for 3d model files
+            obj_path = None
+            mtl_path = None
+            tex_path = None
+            for file in files:
+                relative_file_path = os.path.join(wp_identifier, file).replace('\\', '/')
+                if(file.endswith(mod_extension)):
+                    obj_path = relative_file_path
+                elif(file.endswith(mat_extension)):
+                    mtl_path = relative_file_path
+                elif(file.endswith(tex_extension)):
+                    tex_path = relative_file_path
+            
+            id += 1
+            weapons.append(Weapon(id, aliases, obj_path, mtl_path, tex_path, category).__dict__)
+            print(Weapon(id, aliases, obj_path, mtl_path, tex_path, category).__dict__)
+
+            #add aliases to previously encountered aliases
+            aliases_by_category[category].append(aliases)
+            #prepare file bundle for assets
+            shutil.copytree(subdir, wp_identifier)
 
 #save model file
 with open('weapons.json', 'w') as output:
