@@ -318,21 +318,6 @@
     {
         "id": 29,
         "aliases": [
-            "Safi's Hellbow",
-            "Safi's Aquabow",
-            "Safi's Frostbow",
-            "Safi's Boltbow",
-            "Safi's Drakbow",
-            "Safi's Shatterbow"
-        ],
-        "obj_path": "wp/bow/bow030/bow030.obj",
-        "mtl_path": "wp/bow/bow030/bow030.mtl",
-        "tex_path": "wp/bow/bow030/bow030_BML.PNG",
-        "category": "Bow"
-    },
-    {
-        "id": 30,
-        "aliases": [
             "Iron Bow I",
             "Iron Bow II",
             "Iron Bow III",
@@ -365,7 +350,7 @@
         "category": "Bow"
     },
     {
-        "id": 31,
+        "id": 30,
         "aliases": [
             "Archer's Dance I",
             "Archer's Dance II",
@@ -402,7 +387,7 @@
         "category": "Bow"
     },
     {
-        "id": 32,
+        "id": 31,
         "aliases": [
             "Hunter's Bow I",
             "Hunter's Bow II",
@@ -441,7 +426,7 @@
         "category": "Bow"
     },
     {
-        "id": 33,
+        "id": 32,
         "aliases": [
             "Datura String I",
             "Datura String II",
@@ -460,20 +445,8 @@
         "category": "Bow"
     },
     {
-        "id": 34,
+        "id": 33,
         "aliases": [
-            "Gold Water Piercer",
-            "Gold Thunder Piercer",
-            "Gold Blast Piercer",
-            "Thief Gold Piercer",
-            "Spew Gold Piercer",
-            "Spark Gold Piercer",
-            "Rage Gold Piercer",
-            "Queen Gold Piercer",
-            "Stream Gold Piercer",
-            "Decay Gold Piercer",
-            "King Gold Piercer",
-            "Horn Gold Piercer",
             "Gold Water Piercer",
             "Gold Thunder Piercer",
             "Gold Blast Piercer",
@@ -493,21 +466,8 @@
         "category": "Bow"
     },
     {
-        "id": 35,
+        "id": 34,
         "aliases": [
-            "Taroth Arrow \"Thief\"",
-            "Taroth Arrow \"Spew\"",
-            "Taroth Arrow \"Spark\"",
-            "Taroth Arrow \"Rage\"",
-            "Taroth Arrow \"Queen\"",
-            "Taroth Arrow \"Stream\"",
-            "Taroth Arrow \"Decay\"",
-            "Taroth Arrow \"King\"",
-            "Taroth Arrow \"Horn\"",
-            "Taroth Arrow \"Water\"",
-            "Taroth Arrow \"Thunder\"",
-            "Taroth Arrow \"Blast\"",
-            "Taroth Arrow \"Fire\"",
             "Taroth Arrow \"Thief\"",
             "Taroth Arrow \"Spew\"",
             "Taroth Arrow \"Spark\"",
@@ -528,7 +488,7 @@
         "category": "Bow"
     },
     {
-        "id": 36,
+        "id": 35,
         "aliases": [
             "Empress Arrow",
             "Empress Arrow \"Blaze\"",
@@ -544,7 +504,7 @@
         "category": "Bow"
     },
     {
-        "id": 37,
+        "id": 36,
         "aliases": [
             "Alqaws al-Nasr I",
             "Alqaws al-Nasr II",
@@ -557,7 +517,7 @@
         "category": "Bow"
     },
     {
-        "id": 38,
+        "id": 37,
         "aliases": [
             "Deathbow Vaal Velos",
             "Datura Squall I",
@@ -575,7 +535,7 @@
         "category": "Bow"
     },
     {
-        "id": 39,
+        "id": 38,
         "aliases": [
             "Iceflinger",
             "Alluring Evelia"
@@ -586,12 +546,8 @@
         "category": "Bow"
     },
     {
-        "id": 40,
+        "id": 39,
         "aliases": [
-            "Kj\u00e1rr Bow \"Spark\"",
-            "Kj\u00e1rr Bow \"Stream\"",
-            "Kj\u00e1rr Bow \"King\"",
-            "Kj\u00e1rr Bow \"Decay\"",
             "Kj\u00e1rr Bow \"Spark\"",
             "Kj\u00e1rr Bow \"Stream\"",
             "Kj\u00e1rr Bow \"King\"",
@@ -603,10 +559,8 @@
         "category": "Bow"
     },
     {
-        "id": 41,
+        "id": 40,
         "aliases": [
-            "Kj\u00e1rr Bow \"Water\"",
-            "Kj\u00e1rr Bow \"Blast\"",
             "Kj\u00e1rr Bow \"Water\"",
             "Kj\u00e1rr Bow \"Blast\""
         ],
@@ -616,7 +570,7 @@
         "category": "Bow"
     },
     {
-        "id": 42,
+        "id": 41,
         "aliases": [
             "Proto Commission Axe I",
             "Proto Commission Axe II",
@@ -647,7 +601,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 43,
+        "id": 42,
         "aliases": [
             "Jyura Depth I",
             "Jyura Depth II",
@@ -669,7 +623,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 44,
+        "id": 43,
         "aliases": [
             "Bone Strongarm I",
             "Bone Strongarm II",
@@ -705,7 +659,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 45,
+        "id": 44,
         "aliases": [
             "Diablos Tyrannis I",
             "Diablos Tyrannis II",
@@ -736,20 +690,8 @@
         "category": "Charge Blade"
     },
     {
-        "id": 46,
+        "id": 45,
         "aliases": [
-            "Gold Ice Cutter",
-            "Gold Thunder Cutter",
-            "Gold Sleep Cutter",
-            "Glutton Gold Cutter",
-            "Mire Gold Cutter",
-            "Spark Gold Cutter",
-            "Numb Gold Cutter",
-            "Claw Gold Cutter",
-            "Decay Gold Cutter",
-            "King Gold Cutter",
-            "Horn Gold Cutter",
-            "Crusher Gold Cutter",
             "Gold Ice Cutter",
             "Gold Thunder Cutter",
             "Gold Sleep Cutter",
@@ -769,21 +711,8 @@
         "category": "Charge Blade"
     },
     {
-        "id": 47,
+        "id": 46,
         "aliases": [
-            "Taroth Strongarm \"Glutton\"",
-            "Taroth Strongarm \"Mire\"",
-            "Taroth Strongarm \"Spark\"",
-            "Taroth Strongarm \"Numb\"",
-            "Taroth Strongarm \"Claw\"",
-            "Taroth Strongarm \"Decay\"",
-            "Taroth Strongarm \"King\"",
-            "Taroth Strongarm \"Horn\"",
-            "Taroth Strongarm \"Crusher\"",
-            "Taroth Strongarm \"Ice\"",
-            "Taroth Strongarm \"Thunder\"",
-            "Taroth Strongarm \"Sleep\"",
-            "Taroth Strongarm \"Water\"",
             "Taroth Strongarm \"Glutton\"",
             "Taroth Strongarm \"Mire\"",
             "Taroth Strongarm \"Spark\"",
@@ -804,7 +733,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 48,
+        "id": 47,
         "aliases": [
             "Empress Alma",
             "Empress Alma \"Blaze\"",
@@ -820,7 +749,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 49,
+        "id": 48,
         "aliases": [
             "Chrome Fortress I",
             "Chrome Fortress II",
@@ -834,7 +763,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 50,
+        "id": 49,
         "aliases": [
             "Wild Force I",
             "Wild Force II",
@@ -854,7 +783,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 51,
+        "id": 50,
         "aliases": [
             "Ice Guardian",
             "Regal Daruq"
@@ -865,13 +794,8 @@
         "category": "Charge Blade"
     },
     {
-        "id": 52,
+        "id": 51,
         "aliases": [
-            "Kj\u00e1rr Strongarm \"Spark\"",
-            "Kj\u00e1rr Strongarm \"Numb\"",
-            "Kj\u00e1rr Strongarm \"Decay\"",
-            "Kj\u00e1rr Strongarm \"King\"",
-            "Kj\u00e1rr Strongarm \"Crusher\"",
             "Kj\u00e1rr Strongarm \"Spark\"",
             "Kj\u00e1rr Strongarm \"Numb\"",
             "Kj\u00e1rr Strongarm \"Decay\"",
@@ -884,10 +808,8 @@
         "category": "Charge Blade"
     },
     {
-        "id": 53,
+        "id": 52,
         "aliases": [
-            "Kj\u00e1rr Strongarm \"Ice\"",
-            "Kj\u00e1rr Strongarm \"Water\"",
             "Kj\u00e1rr Strongarm \"Ice\"",
             "Kj\u00e1rr Strongarm \"Water\""
         ],
@@ -897,7 +819,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 54,
+        "id": 53,
         "aliases": [
             "Daora's Casca",
             "Daora's Thwartoise",
@@ -909,7 +831,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 55,
+        "id": 54,
         "aliases": [
             "Dear Lutemis",
             "Dear Lutemia"
@@ -920,7 +842,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 56,
+        "id": 55,
         "aliases": [
             "Axelion Blade",
             "Halberion Blade",
@@ -932,7 +854,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 57,
+        "id": 56,
         "aliases": [
             "Devastation's Thorns"
         ],
@@ -942,7 +864,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 58,
+        "id": 57,
         "aliases": [
             "Hate's Undying Flame",
             "Odium",
@@ -955,7 +877,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 59,
+        "id": 58,
         "aliases": [
             "Magda Manus",
             "Avenging Magda Manus",
@@ -967,7 +889,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 60,
+        "id": 59,
         "aliases": [
             "Dear Hecatel",
             "Dear Hecatelia",
@@ -980,7 +902,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 61,
+        "id": 60,
         "aliases": [
             "Tyrant's Charge Blade",
             "Oppressor's Charge Blade"
@@ -991,7 +913,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 62,
+        "id": 61,
         "aliases": [
             "Dante's Devil Sword",
             "Dante's Devil Sword+"
@@ -1002,7 +924,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 63,
+        "id": 62,
         "aliases": [
             "Nether Candle",
             "Grudge"
@@ -1013,7 +935,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 64,
+        "id": 63,
         "aliases": [
             "Ruinous Devastation"
         ],
@@ -1023,7 +945,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 65,
+        "id": 64,
         "aliases": [
             "Weissritter",
             "Weissritter+",
@@ -1035,7 +957,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 66,
+        "id": 65,
         "aliases": [
             "Dios Strongarm",
             "Volatile Blade"
@@ -1046,7 +968,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 67,
+        "id": 66,
         "aliases": [
             "Scorching Demander",
             "Scorching Demander+",
@@ -1058,7 +980,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 68,
+        "id": 67,
         "aliases": [
             "Sulfurteinn Machmar",
             "The Melting Grasp"
@@ -1069,7 +991,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 69,
+        "id": 68,
         "aliases": [
             "Inescapable Karma"
         ],
@@ -1079,7 +1001,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 70,
+        "id": 69,
         "aliases": [
             "Fate's Curtain"
         ],
@@ -1089,7 +1011,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 71,
+        "id": 70,
         "aliases": [
             "Usurper's Lightning",
             "Usurper's Lightning+",
@@ -1101,7 +1023,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 72,
+        "id": 71,
         "aliases": [
             "Brimstren Drakeclaw",
             "Stygian Maledicta"
@@ -1112,7 +1034,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 73,
+        "id": 72,
         "aliases": [
             "Luna Eostre"
         ],
@@ -1122,7 +1044,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 74,
+        "id": 73,
         "aliases": [
             "Hellsire Blade"
         ],
@@ -1132,7 +1054,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 75,
+        "id": 74,
         "aliases": [
             "Rajang Beastblade",
             "Rajang Beastblade Ikazuchi"
@@ -1143,7 +1065,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 76,
+        "id": 75,
         "aliases": [
             "Demonlord Blade"
         ],
@@ -1153,7 +1075,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 77,
+        "id": 76,
         "aliases": [
             "Lightbreak Charge Blade"
         ],
@@ -1163,7 +1085,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 78,
+        "id": 77,
         "aliases": [
             "Safi's Hellshield",
             "Safi's Aquashield",
@@ -1181,7 +1103,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 79,
+        "id": 78,
         "aliases": [
             "Alatreon Edge",
             "Alatreon Morphblade"
@@ -1192,7 +1114,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 80,
+        "id": 79,
         "aliases": [
             "Azure Soulbrand"
         ],
@@ -1202,7 +1124,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 81,
+        "id": 80,
         "aliases": [
             "Guild Palace Disc",
             "Royal Star Shield"
@@ -1213,7 +1135,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 82,
+        "id": 81,
         "aliases": [
             "Raging Wolf Fang"
         ],
@@ -1223,7 +1145,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 83,
+        "id": 82,
         "aliases": [
             "Black Eagle",
             "Black Lightning Eagle"
@@ -1234,7 +1156,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 84,
+        "id": 83,
         "aliases": [
             "Fatalis Charger",
             "True Fatalis Charger"
@@ -1245,25 +1167,7 @@
         "category": "Charge Blade"
     },
     {
-        "id": 85,
-        "aliases": [
-            "Safi's Hellshield",
-            "Safi's Aquashield",
-            "Safi's Frostshield",
-            "Safi's Boltshield",
-            "Safi's Drakshield",
-            "Safi's Venomshield",
-            "Safi's Bindshield",
-            "Safi's Dreamshield",
-            "Safi's Shattershield"
-        ],
-        "obj_path": "wp/caxe/caxe032/caxe032.obj",
-        "mtl_path": "wp/caxe/caxe032/caxe032.mtl",
-        "tex_path": "wp/caxe/caxe032/caxe032_BML.PNG",
-        "category": "Charge Blade"
-    },
-    {
-        "id": 86,
+        "id": 84,
         "aliases": [
             "Iron Gunlance I",
             "Iron Gunlance II",
@@ -1293,7 +1197,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 87,
+        "id": 85,
         "aliases": [
             "Jyura Buster I",
             "Jyura Buster II",
@@ -1309,7 +1213,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 88,
+        "id": 86,
         "aliases": [
             "Legiana Cannon I",
             "Legiana Cannon II",
@@ -1329,7 +1233,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 89,
+        "id": 87,
         "aliases": [
             "Bone Gunlance I",
             "Bone Gunlance II",
@@ -1362,7 +1266,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 90,
+        "id": 88,
         "aliases": [
             "Glutton Gunlance I",
             "Glutton Gunlance II",
@@ -1385,7 +1289,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 91,
+        "id": 89,
         "aliases": [
             "Deathfang Gunlance I",
             "Deathfang Gunlance II",
@@ -1407,21 +1311,8 @@
         "category": "Gun Lance"
     },
     {
-        "id": 92,
+        "id": 90,
         "aliases": [
-            "Gold Water Exploder",
-            "Gold Poison Exploder",
-            "Gold Sleep Exploder",
-            "Glutton Gold Exploder",
-            "Mire Gold Exploder",
-            "Mud Gold Exploder",
-            "Spark Gold Exploder",
-            "Rage Gold Exploder",
-            "Numb Gold Exploder",
-            "Stream Gold Exploder",
-            "Decay Gold Exploder",
-            "King Gold Exploder",
-            "Bomber Gold Exploder",
             "Gold Water Exploder",
             "Gold Poison Exploder",
             "Gold Sleep Exploder",
@@ -1442,22 +1333,8 @@
         "category": "Gun Lance"
     },
     {
-        "id": 93,
+        "id": 91,
         "aliases": [
-            "Taroth Buster \"Glutton\"",
-            "Taroth Buster \"Mire\"",
-            "Taroth Buster \"Mud\"",
-            "Taroth Buster \"Spark\"",
-            "Taroth Buster \"Rage\"",
-            "Taroth Buster \"Numb\"",
-            "Taroth Buster \"Stream\"",
-            "Taroth Buster \"Decay\"",
-            "Taroth Buster \"King\"",
-            "Taroth Buster \"Bomber\"",
-            "Taroth Buster \"Water\"",
-            "Taroth Buster \"Poison\"",
-            "Taroth Buster \"Sleep\"",
-            "Taroth Buster \"Ice\"",
             "Taroth Buster \"Glutton\"",
             "Taroth Buster \"Mire\"",
             "Taroth Buster \"Mud\"",
@@ -1479,7 +1356,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 94,
+        "id": 92,
         "aliases": [
             "Empress Howl",
             "Empress Howl \"Blaze\"",
@@ -1495,7 +1372,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 95,
+        "id": 93,
         "aliases": [
             "Chrome Halberd I",
             "Chrome Halberd II",
@@ -1509,7 +1386,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 96,
+        "id": 94,
         "aliases": [
             "Dragonpike \"Quake\" I",
             "Dragonpike \"Quake\" II",
@@ -1529,7 +1406,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 97,
+        "id": 95,
         "aliases": [
             "Eisritter",
             "Vorpal Icefort"
@@ -1540,13 +1417,8 @@
         "category": "Gun Lance"
     },
     {
-        "id": 98,
+        "id": 96,
         "aliases": [
-            "Kj\u00e1rr Buster \"Stream\"",
-            "Kj\u00e1rr Buster \"Decay\"",
-            "Kj\u00e1rr Buster \"King\"",
-            "Kj\u00e1rr Buster \"Bomber\"",
-            "Kj\u00e1rr Buster \"Spark\"",
             "Kj\u00e1rr Buster \"Stream\"",
             "Kj\u00e1rr Buster \"Decay\"",
             "Kj\u00e1rr Buster \"King\"",
@@ -1559,10 +1431,8 @@
         "category": "Gun Lance"
     },
     {
-        "id": 99,
+        "id": 97,
         "aliases": [
-            "Kj\u00e1rr Buster \"Paralysis\"",
-            "Kj\u00e1rr Buster \"Water\"",
             "Kj\u00e1rr Buster \"Paralysis\"",
             "Kj\u00e1rr Buster \"Water\""
         ],
@@ -1572,7 +1442,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 100,
+        "id": 98,
         "aliases": [
             "Princess Panoply",
             "Princess Panoply+"
@@ -1583,7 +1453,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 101,
+        "id": 99,
         "aliases": [
             "Red Rook"
         ],
@@ -1593,7 +1463,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 102,
+        "id": 100,
         "aliases": [
             "Icesteel Gunlance",
             "Daora's Brigia",
@@ -1605,7 +1475,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 103,
+        "id": 101,
         "aliases": [
             "Eradication Flame"
         ],
@@ -1615,7 +1485,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 104,
+        "id": 102,
         "aliases": [
             "Kadachi Striker",
             "Kadachi Striker+",
@@ -1629,7 +1499,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 105,
+        "id": 103,
         "aliases": [
             "Magda Lahat",
             "Earthshaker Magda Lahat",
@@ -1641,7 +1511,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 106,
+        "id": 104,
         "aliases": [
             "Rose Burst",
             "Royal Burst",
@@ -1654,7 +1524,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 107,
+        "id": 105,
         "aliases": [
             "Blue Rook",
             "Blue Chariot",
@@ -1667,7 +1537,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 108,
+        "id": 106,
         "aliases": [
             "Ravenous Gunlance",
             "Insatiable Gunlance"
@@ -1678,7 +1548,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 109,
+        "id": 107,
         "aliases": [
             "Crimson Ember",
             "Crimson Ember+",
@@ -1690,7 +1560,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 110,
+        "id": 108,
         "aliases": [
             "Ruinous Eradication"
         ],
@@ -1700,7 +1570,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 111,
+        "id": 109,
         "aliases": [
             "Twinfang",
             "Twinfang+",
@@ -1712,7 +1582,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 112,
+        "id": 110,
         "aliases": [
             "Tiger Blast",
             "Tiger Blast+",
@@ -1724,7 +1594,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 113,
+        "id": 111,
         "aliases": [
             "Hydra Ephyra",
             "Black Ephyra"
@@ -1735,7 +1605,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 114,
+        "id": 112,
         "aliases": [
             "Broken Silence"
         ],
@@ -1745,7 +1615,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 115,
+        "id": 113,
         "aliases": [
             "Consummate Gunlance"
         ],
@@ -1755,7 +1625,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 116,
+        "id": 114,
         "aliases": [
             "Usurper's Roar",
             "Usurper's Roar+",
@@ -1767,7 +1637,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 117,
+        "id": 115,
         "aliases": [
             "Brimstren Drakeblood",
             "Stygian Avaritia"
@@ -1778,7 +1648,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 118,
+        "id": 116,
         "aliases": [
             "Queen's Panoply"
         ],
@@ -1788,7 +1658,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 119,
+        "id": 117,
         "aliases": [
             "Chariot Gun"
         ],
@@ -1798,7 +1668,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 120,
+        "id": 118,
         "aliases": [
             "Demon Gunlance",
             "Great Demon Gunlance"
@@ -1809,7 +1679,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 121,
+        "id": 119,
         "aliases": [
             "Demonlord Gunlance"
         ],
@@ -1819,7 +1689,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 122,
+        "id": 120,
         "aliases": [
             "Safi's Hellbuster",
             "Safi's Aquabuster",
@@ -1837,7 +1707,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 123,
+        "id": 121,
         "aliases": [
             "Alatreon Gunlance",
             "Alatreon Melt"
@@ -1848,7 +1718,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 124,
+        "id": 122,
         "aliases": [
             "Gajalaka Firestabber",
             "Gajalaka Firepike"
@@ -1859,7 +1729,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 125,
+        "id": 123,
         "aliases": [
             "Guild Palace Order",
             "Royal Guard Striker"
@@ -1870,7 +1740,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 126,
+        "id": 124,
         "aliases": [
             "Accursed Blast",
             "Flamebite"
@@ -1881,7 +1751,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 127,
+        "id": 125,
         "aliases": [
             "White Night"
         ],
@@ -1891,7 +1761,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 128,
+        "id": 126,
         "aliases": [
             "Fatalis Gunlance",
             "True Fatalis Gunlance"
@@ -1902,25 +1772,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 129,
-        "aliases": [
-            "Safi's Hellbuster",
-            "Safi's Aquabuster",
-            "Safi's Frostbuster",
-            "Safi's Boltbuster",
-            "Safi's Drakbuster",
-            "Safi's Venombuster",
-            "Safi's Bindbuster",
-            "Safi's Dreambuster",
-            "Safi's Shatterbuster"
-        ],
-        "obj_path": "wp/gun/gun031/gun031.obj",
-        "mtl_path": "wp/gun/gun031/gun031.mtl",
-        "tex_path": "wp/gun/gun031/gun031_BML.PNG",
-        "category": "Gun Lance"
-    },
-    {
-        "id": 130,
+        "id": 127,
         "aliases": [
             "Lightbreak Gunlance"
         ],
@@ -1930,7 +1782,7 @@
         "category": "Gun Lance"
     },
     {
-        "id": 131,
+        "id": 128,
         "aliases": [
             "Iron Hammer I",
             "Iron Hammer II",
@@ -1961,7 +1813,7 @@
         "category": "Hammer"
     },
     {
-        "id": 132,
+        "id": 129,
         "aliases": [
             "Iron Demon I",
             "Iron Demon II",
@@ -1994,7 +1846,7 @@
         "category": "Hammer"
     },
     {
-        "id": 133,
+        "id": 130,
         "aliases": [
             "Bone Bludgeon I",
             "Bone Bludgeon II",
@@ -2030,7 +1882,7 @@
         "category": "Hammer"
     },
     {
-        "id": 134,
+        "id": 131,
         "aliases": [
             "Bone Spike I",
             "Bone Spike II",
@@ -2060,20 +1912,8 @@
         "category": "Hammer"
     },
     {
-        "id": 135,
+        "id": 132,
         "aliases": [
-            "Gold Water Bludgeon",
-            "Gold Ice Bludgeon",
-            "Gold Thunder Bludgeon",
-            "Thief Gold Bludgeon",
-            "Spew Gold Bludgeon",
-            "Mud Gold Bludgeon",
-            "Rage Gold Bludgeon",
-            "Numb Gold Bludgeon",
-            "Tar Gold Bludgeon",
-            "Decay Gold Bludgeon",
-            "Horn Gold Bludgeon",
-            "Gyre Gold Bludgeon",
             "Gold Water Bludgeon",
             "Gold Ice Bludgeon",
             "Gold Thunder Bludgeon",
@@ -2093,21 +1933,8 @@
         "category": "Hammer"
     },
     {
-        "id": 136,
+        "id": 133,
         "aliases": [
-            "Taroth Hammer \"Thief\"",
-            "Taroth Hammer \"Spew\"",
-            "Taroth Hammer \"Mud\"",
-            "Taroth Hammer \"Rage\"",
-            "Taroth Hammer \"Numb\"",
-            "Taroth Hammer \"Tar\"",
-            "Taroth Hammer \"Decay\"",
-            "Taroth Hammer \"Horn\"",
-            "Taroth Hammer \"Gyre\"",
-            "Taroth Hammer \"Water\"",
-            "Taroth Hammer \"Ice\"",
-            "Taroth Hammer \"Thunder\"",
-            "Taroth Hammer \"Sleep\"",
             "Taroth Hammer \"Thief\"",
             "Taroth Hammer \"Spew\"",
             "Taroth Hammer \"Mud\"",
@@ -2128,7 +1955,7 @@
         "category": "Hammer"
     },
     {
-        "id": 137,
+        "id": 134,
         "aliases": [
             "Empress Mace",
             "Empress Mace \"Blaze\"",
@@ -2144,7 +1971,7 @@
         "category": "Hammer"
     },
     {
-        "id": 138,
+        "id": 135,
         "aliases": [
             "Naaga Matraca I",
             "Naaga Matraca II"
@@ -2155,7 +1982,7 @@
         "category": "Hammer"
     },
     {
-        "id": 139,
+        "id": 136,
         "aliases": [
             "Earth Ender I",
             "Earth Ender II",
@@ -2179,7 +2006,7 @@
         "category": "Hammer"
     },
     {
-        "id": 140,
+        "id": 137,
         "aliases": [
             "Iceshaker",
             "Victorious Northlein"
@@ -2190,11 +2017,8 @@
         "category": "Hammer"
     },
     {
-        "id": 141,
+        "id": 138,
         "aliases": [
-            "Kj\u00e1rr Hammer \"Numb\"",
-            "Kj\u00e1rr Hammer \"Decay\"",
-            "Kj\u00e1rr Hammer \"Gyre\"",
             "Kj\u00e1rr Hammer \"Numb\"",
             "Kj\u00e1rr Hammer \"Decay\"",
             "Kj\u00e1rr Hammer \"Gyre\""
@@ -2205,12 +2029,8 @@
         "category": "Hammer"
     },
     {
-        "id": 142,
+        "id": 139,
         "aliases": [
-            "Kj\u00e1rr Hammer \"Water\"",
-            "Kj\u00e1rr Hammer \"Ice\"",
-            "Kj\u00e1rr Hammer \"Thunder\"",
-            "Kj\u00e1rr Hammer \"Blast\"",
             "Kj\u00e1rr Hammer \"Water\"",
             "Kj\u00e1rr Hammer \"Ice\"",
             "Kj\u00e1rr Hammer \"Thunder\"",
@@ -2222,7 +2042,7 @@
         "category": "Hammer"
     },
     {
-        "id": 143,
+        "id": 140,
         "aliases": [
             "Icesteel Hammer",
             "Daora's Colossus",
@@ -2234,7 +2054,7 @@
         "category": "Hammer"
     },
     {
-        "id": 144,
+        "id": 141,
         "aliases": [
             "Buon Fiore",
             "Buona Flora",
@@ -2247,7 +2067,7 @@
         "category": "Hammer"
     },
     {
-        "id": 145,
+        "id": 142,
         "aliases": [
             "Jail Hammer",
             "Binder Mace",
@@ -2259,7 +2079,7 @@
         "category": "Hammer"
     },
     {
-        "id": 146,
+        "id": 143,
         "aliases": [
             "Obliteration's Footfall"
         ],
@@ -2269,7 +2089,7 @@
         "category": "Hammer"
     },
     {
-        "id": 147,
+        "id": 144,
         "aliases": [
             "Pandemonium's Root"
         ],
@@ -2279,7 +2099,7 @@
         "category": "Hammer"
     },
     {
-        "id": 148,
+        "id": 145,
         "aliases": [
             "Magda Floga",
             "Ragefire Magda Floga",
@@ -2291,7 +2111,7 @@
         "category": "Hammer"
     },
     {
-        "id": 149,
+        "id": 146,
         "aliases": [
             "Frozen Core",
             "Frozen Core+",
@@ -2305,7 +2125,7 @@
         "category": "Hammer"
     },
     {
-        "id": 150,
+        "id": 147,
         "aliases": [
             "Devil's Due",
             "Devil's Crush"
@@ -2316,7 +2136,7 @@
         "category": "Hammer"
     },
     {
-        "id": 151,
+        "id": 148,
         "aliases": [
             "Aqua Flora",
             "Aqua Flora+",
@@ -2328,7 +2148,7 @@
         "category": "Hammer"
     },
     {
-        "id": 152,
+        "id": 149,
         "aliases": [
             "Pandemonium's Wrath",
             "Pandemonium Unleashed"
@@ -2339,7 +2159,7 @@
         "category": "Hammer"
     },
     {
-        "id": 153,
+        "id": 150,
         "aliases": [
             "Ruinous Obliteration"
         ],
@@ -2349,7 +2169,7 @@
         "category": "Hammer"
     },
     {
-        "id": 154,
+        "id": 151,
         "aliases": [
             "Hidden Breaker",
             "Hidden Breaker+",
@@ -2361,7 +2181,7 @@
         "category": "Hammer"
     },
     {
-        "id": 155,
+        "id": 152,
         "aliases": [
             "Dios Tailhammer",
             "Brachy Tailhammer"
@@ -2372,7 +2192,7 @@
         "category": "Hammer"
     },
     {
-        "id": 156,
+        "id": 153,
         "aliases": [
             "Scorching Isshata",
             "Scorching Isshata+",
@@ -2384,7 +2204,7 @@
         "category": "Hammer"
     },
     {
-        "id": 157,
+        "id": 154,
         "aliases": [
             "Sulfurteinn Alcan",
             "The Grinding Mallet"
@@ -2395,7 +2215,7 @@
         "category": "Hammer"
     },
     {
-        "id": 158,
+        "id": 155,
         "aliases": [
             "Dawning Tranquility"
         ],
@@ -2405,7 +2225,7 @@
         "category": "Hammer"
     },
     {
-        "id": 159,
+        "id": 156,
         "aliases": [
             "Consummate Hammer"
         ],
@@ -2415,7 +2235,7 @@
         "category": "Hammer"
     },
     {
-        "id": 160,
+        "id": 157,
         "aliases": [
             "Bristly Pincushion",
             "Bristly Grudge",
@@ -2427,7 +2247,7 @@
         "category": "Hammer"
     },
     {
-        "id": 161,
+        "id": 158,
         "aliases": [
             "Striped Striker",
             "Striped Striker+",
@@ -2439,7 +2259,7 @@
         "category": "Hammer"
     },
     {
-        "id": 162,
+        "id": 159,
         "aliases": [
             "Usurper's Thunder",
             "Usurper's Thunder+",
@@ -2451,7 +2271,7 @@
         "category": "Hammer"
     },
     {
-        "id": 163,
+        "id": 160,
         "aliases": [
             "Brimstren Drakemaw",
             "Stygian Industria"
@@ -2462,7 +2282,7 @@
         "category": "Hammer"
     },
     {
-        "id": 164,
+        "id": 161,
         "aliases": [
             "Red Bludgeon",
             "Huracan Hammer"
@@ -2473,7 +2293,7 @@
         "category": "Hammer"
     },
     {
-        "id": 165,
+        "id": 162,
         "aliases": [
             "Leonid Starcrusher"
         ],
@@ -2483,7 +2303,7 @@
         "category": "Hammer"
     },
     {
-        "id": 166,
+        "id": 163,
         "aliases": [
             "Mane Malice",
             "Mane Malice Rajang"
@@ -2494,7 +2314,7 @@
         "category": "Hammer"
     },
     {
-        "id": 167,
+        "id": 164,
         "aliases": [
             "Demonlord Sledge"
         ],
@@ -2504,7 +2324,7 @@
         "category": "Hammer"
     },
     {
-        "id": 168,
+        "id": 165,
         "aliases": [
             "Lightbreak Hammer"
         ],
@@ -2514,7 +2334,7 @@
         "category": "Hammer"
     },
     {
-        "id": 169,
+        "id": 166,
         "aliases": [
             "Safi's Hellcrusher",
             "Safi's Aquacrusher",
@@ -2532,7 +2352,7 @@
         "category": "Hammer"
     },
     {
-        "id": 170,
+        "id": 167,
         "aliases": [
             "Alatreon Hammer",
             "Alatreon Metamorph"
@@ -2543,7 +2363,7 @@
         "category": "Hammer"
     },
     {
-        "id": 171,
+        "id": 168,
         "aliases": [
             "Well-done Hammer",
             "Juicy Well-done Hammer"
@@ -2554,7 +2374,7 @@
         "category": "Hammer"
     },
     {
-        "id": 172,
+        "id": 169,
         "aliases": [
             "Space Lord! Super-8"
         ],
@@ -2564,7 +2384,7 @@
         "category": "Hammer"
     },
     {
-        "id": 173,
+        "id": 170,
         "aliases": [
             "Guild Palace Mace",
             "Royal Cross Mace"
@@ -2575,7 +2395,7 @@
         "category": "Hammer"
     },
     {
-        "id": 174,
+        "id": 171,
         "aliases": [
             "Polaris Bash"
         ],
@@ -2585,7 +2405,7 @@
         "category": "Hammer"
     },
     {
-        "id": 175,
+        "id": 172,
         "aliases": [
             "Fatalis Buster",
             "Fatalis Demolisher"
@@ -2596,25 +2416,7 @@
         "category": "Hammer"
     },
     {
-        "id": 176,
-        "aliases": [
-            "Safi's Hellcrusher",
-            "Safi's Aquacrusher",
-            "Safi's Frostcrusher",
-            "Safi's Boltcrusher",
-            "Safi's Drakcrusher",
-            "Safi's Venomcrusher",
-            "Safi's Bindcrusher",
-            "Safi's Dreamcrusher",
-            "Safi's Shattercrusher"
-        ],
-        "obj_path": "wp/ham/ham034/ham034.obj",
-        "mtl_path": "wp/ham/ham034/ham034.mtl",
-        "tex_path": "wp/ham/ham034/ham034_BML.PNG",
-        "category": "Hammer"
-    },
-    {
-        "id": 177,
+        "id": 173,
         "aliases": [
             "Iron Assault I",
             "Iron Assault II",
@@ -2659,7 +2461,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 178,
+        "id": 174,
         "aliases": [
             "Bone Shooter I",
             "Bone Shooter II",
@@ -2704,20 +2506,8 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 179,
+        "id": 175,
         "aliases": [
-            "Gold Support Cannon",
-            "Gold Blast Cannon",
-            "Gold Icewater Cannon",
-            "Glutton Gold Cannon",
-            "Spew Gold Cannon",
-            "Spark Gold Cannon",
-            "Rage Gold Cannon",
-            "Flash Gold Cannon",
-            "Tar Gold Cannon",
-            "Horn Gold Cannon",
-            "Crusher Gold Cannon",
-            "Magma Gold Cannon",
             "Gold Support Cannon",
             "Gold Blast Cannon",
             "Gold Icewater Cannon",
@@ -2737,21 +2527,8 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 180,
+        "id": 176,
         "aliases": [
-            "Taroth Assault \"Glutton\"",
-            "Taroth Assault \"Spew\"",
-            "Taroth Assault \"Spark\"",
-            "Taroth Assault \"Rage\"",
-            "Taroth Assault \"Flash\"",
-            "Taroth Assault \"Tar\"",
-            "Taroth Assault \"Horn\"",
-            "Taroth Assault \"Crusher\"",
-            "Taroth Assault \"Magma\"",
-            "Taroth Assault \"Support\"",
-            "Taroth Assault \"Blast\"",
-            "Taroth Assault \"Icewater\"",
-            "Taroth Assault \"Pierce\"",
             "Taroth Assault \"Glutton\"",
             "Taroth Assault \"Spew\"",
             "Taroth Assault \"Spark\"",
@@ -2772,7 +2549,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 181,
+        "id": 177,
         "aliases": [
             "Empress Cannon",
             "Empress Cannon \"Blaze\"",
@@ -2788,7 +2565,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 182,
+        "id": 178,
         "aliases": [
             "Fatal Assault I",
             "Fatal Assault II",
@@ -2807,7 +2584,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 183,
+        "id": 179,
         "aliases": [
             "Cartilage Blaster I",
             "Cartilage Blaster II",
@@ -2831,7 +2608,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 184,
+        "id": 180,
         "aliases": [
             "Iceroar",
             "Righteous Varka"
@@ -2842,12 +2619,8 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 185,
+        "id": 181,
         "aliases": [
-            "Kj\u00e1rr Assault \"Rage\"",
-            "Kj\u00e1rr Assault \"Horn\"",
-            "Kj\u00e1rr Assault \"Spark\"",
-            "Kj\u00e1rr Assault \"Magma\"",
             "Kj\u00e1rr Assault \"Rage\"",
             "Kj\u00e1rr Assault \"Horn\"",
             "Kj\u00e1rr Assault \"Spark\"",
@@ -2859,10 +2632,8 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 186,
+        "id": 182,
         "aliases": [
-            "Kj\u00e1rr Assault \"Water\"",
-            "Kj\u00e1rr Assault \"Ice\"",
             "Kj\u00e1rr Assault \"Water\"",
             "Kj\u00e1rr Assault \"Ice\""
         ],
@@ -2872,7 +2643,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 187,
+        "id": 183,
         "aliases": [
             "Teostra's Artillery",
             "Teostra's Flames",
@@ -2884,7 +2655,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 188,
+        "id": 184,
         "aliases": [
             "Dual Threat"
         ],
@@ -2894,7 +2665,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 189,
+        "id": 185,
         "aliases": [
             "Quickcaster",
             "Quickcaster+",
@@ -2907,7 +2678,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 190,
+        "id": 186,
         "aliases": [
             "Destruction's Fusillade"
         ],
@@ -2917,7 +2688,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 191,
+        "id": 187,
         "aliases": [
             "Flammenkanone",
             "Gnashing Flammenkanone",
@@ -2929,7 +2700,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 192,
+        "id": 188,
         "aliases": [
             "Shattercryst",
             "Shattercryst+",
@@ -2942,7 +2713,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 193,
+        "id": 189,
         "aliases": [
             "Nero's Blazooka",
             "Griffon Blazooka",
@@ -2955,7 +2726,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 194,
+        "id": 190,
         "aliases": [
             "Gluttonous Fangcannon",
             "Gluttonous Fangcannon+",
@@ -2967,7 +2738,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 195,
+        "id": 191,
         "aliases": [
             "Gluttonous Cannon",
             "Dark Devourer"
@@ -2978,7 +2749,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 196,
+        "id": 192,
         "aliases": [
             "Donnerkanone",
             "Donnerkanone+",
@@ -2990,7 +2761,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 197,
+        "id": 193,
         "aliases": [
             "Hoarcry Shattercryst",
             "Franz Glacia"
@@ -3001,7 +2772,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 198,
+        "id": 194,
         "aliases": [
             "Ruinous Destruction"
         ],
@@ -3011,7 +2782,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 199,
+        "id": 195,
         "aliases": [
             "Tigrex Howl",
             "Tigrex Howl+"
@@ -3022,7 +2793,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 200,
+        "id": 196,
         "aliases": [
             "Hidden Gambit",
             "Hidden Gambit+",
@@ -3034,7 +2805,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 201,
+        "id": 197,
         "aliases": [
             "Dios Cannon",
             "Atom Cannon"
@@ -3045,7 +2816,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 202,
+        "id": 198,
         "aliases": [
             "Burning Igna"
         ],
@@ -3055,7 +2826,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 203,
+        "id": 199,
         "aliases": [
             "Sulfurteinn Gyrad",
             "The Guttering Gasp"
@@ -3066,7 +2837,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 204,
+        "id": 200,
         "aliases": [
             "Solemn Reflection"
         ],
@@ -3076,7 +2847,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 205,
+        "id": 201,
         "aliases": [
             "Endless Famine"
         ],
@@ -3086,7 +2857,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 206,
+        "id": 202,
         "aliases": [
             "Mightning",
             "Mightning+",
@@ -3098,7 +2869,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 207,
+        "id": 203,
         "aliases": [
             "Brimstren Drakemouth",
             "Stygian Humilitas"
@@ -3109,7 +2880,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 208,
+        "id": 204,
         "aliases": [
             "Rajang Blaster",
             "Rajang Destroyer"
@@ -3120,7 +2891,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 209,
+        "id": 205,
         "aliases": [
             "Demonlord Beastbuster"
         ],
@@ -3130,7 +2901,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 210,
+        "id": 206,
         "aliases": [
             "Lightbreak Cannon"
         ],
@@ -3140,13 +2911,8 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 211,
+        "id": 207,
         "aliases": [
-            "Safi's Rapidcannon",
-            "Safi's Burstcannon",
-            "Safi's Snipecannon",
-            "Safi's Scorchcannon",
-            "Safi's Freezecannon",
             "Safi's Rapidcannon",
             "Safi's Burstcannon",
             "Safi's Snipecannon",
@@ -3159,7 +2925,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 212,
+        "id": 208,
         "aliases": [
             "Chaos Wing",
             "Albadash"
@@ -3170,7 +2936,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 213,
+        "id": 209,
         "aliases": [
             "Guild Palace Rifle",
             "Royal Light Cortege"
@@ -3181,7 +2947,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 214,
+        "id": 210,
         "aliases": [
             "Accursed Bellow"
         ],
@@ -3191,7 +2957,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 215,
+        "id": 211,
         "aliases": [
             "Final Guerilla"
         ],
@@ -3201,7 +2967,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 216,
+        "id": 212,
         "aliases": [
             "Vor Cannon",
             "Vor Buster"
@@ -3212,7 +2978,7 @@
         "category": "Heavy Bowgun"
     },
     {
-        "id": 217,
+        "id": 213,
         "aliases": [
             "Metal Bagpipe I",
             "Metal Bagpipe II",
@@ -3244,7 +3010,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 218,
+        "id": 214,
         "aliases": [
             "Nergal Groove",
             "Lightning Drum I",
@@ -3274,7 +3040,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 219,
+        "id": 215,
         "aliases": [
             "Bone Horn I",
             "Bone Horn II",
@@ -3318,7 +3084,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 220,
+        "id": 216,
         "aliases": [
             "Anja Barone I",
             "Anja Barone II",
@@ -3342,20 +3108,8 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 221,
+        "id": 217,
         "aliases": [
-            "Gold Water Flute",
-            "Gold Dragon Flute",
-            "Gold Paralysis Flute",
-            "Buzzer Gold Flute",
-            "Thief Gold Flute",
-            "Spew Gold Flute",
-            "Rage Gold Flute",
-            "Drifter Gold Flute",
-            "Stream Gold Flute",
-            "Tar Gold Flute",
-            "Myth Gold Flute",
-            "Crusher Gold Flute",
             "Gold Water Flute",
             "Gold Dragon Flute",
             "Gold Paralysis Flute",
@@ -3375,21 +3129,8 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 222,
+        "id": 218,
         "aliases": [
-            "Taroth Pipe \"Buzzer\"",
-            "Taroth Pipe \"Thief\"",
-            "Taroth Pipe \"Spew\"",
-            "Taroth Pipe \"Rage\"",
-            "Taroth Pipe \"Drifter\"",
-            "Taroth Pipe \"Stream\"",
-            "Taroth Pipe \"Tar\"",
-            "Taroth Pipe \"Myth\"",
-            "Taroth Pipe \"Crusher\"",
-            "Taroth Pipe \"Water\"",
-            "Taroth Pipe \"Dragon\"",
-            "Taroth Pipe \"Paralysis\"",
-            "Taroth Pipe \"Sleep\"",
             "Taroth Pipe \"Buzzer\"",
             "Taroth Pipe \"Thief\"",
             "Taroth Pipe \"Spew\"",
@@ -3410,7 +3151,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 223,
+        "id": 219,
         "aliases": [
             "Empress Roar",
             "Empress Roar \"Blaze\"",
@@ -3426,7 +3167,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 224,
+        "id": 220,
         "aliases": [
             "Taghrid al-Nasr I",
             "Taghrid al-Nasr II"
@@ -3437,7 +3178,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 225,
+        "id": 221,
         "aliases": [
             "Mad Bone Horn I",
             "Mad Bone Horn II",
@@ -3461,7 +3202,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 226,
+        "id": 222,
         "aliases": [
             "Icespiel",
             "Sonorous Eisfyl"
@@ -3472,12 +3213,8 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 227,
+        "id": 223,
         "aliases": [
-            "Kj\u00e1rr Pipe \"Rage\"",
-            "Kj\u00e1rr Pipe \"Myth\"",
-            "Kj\u00e1rr Pipe \"Crusher\"",
-            "Kj\u00e1rr Pipe \"Stream\"",
             "Kj\u00e1rr Pipe \"Rage\"",
             "Kj\u00e1rr Pipe \"Myth\"",
             "Kj\u00e1rr Pipe \"Crusher\"",
@@ -3489,11 +3226,8 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 228,
+        "id": 224,
         "aliases": [
-            "Kj\u00e1rr Pipe \"Paralysis\"",
-            "Kj\u00e1rr Pipe \"Water\"",
-            "Kj\u00e1rr Pipe \"Dragon\"",
             "Kj\u00e1rr Pipe \"Paralysis\"",
             "Kj\u00e1rr Pipe \"Water\"",
             "Kj\u00e1rr Pipe \"Dragon\""
@@ -3504,7 +3238,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 229,
+        "id": 225,
         "aliases": [
             "Teostra's Tiple",
             "Teostra's Orph\u00e9e",
@@ -3516,7 +3250,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 230,
+        "id": 226,
         "aliases": [
             "Valkyrie Chordmaker",
             "Queen Chordmaker"
@@ -3527,7 +3261,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 231,
+        "id": 227,
         "aliases": [
             "Glass Royale",
             "Glass Royale+",
@@ -3541,7 +3275,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 232,
+        "id": 228,
         "aliases": [
             "Desolation's Overture"
         ],
@@ -3551,7 +3285,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 233,
+        "id": 229,
         "aliases": [
             "Sectored",
             "Legia Sectored",
@@ -3563,7 +3297,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 234,
+        "id": 230,
         "aliases": [
             "Rookslayer Drum",
             "Bazelreid Rookslayer"
@@ -3574,7 +3308,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 235,
+        "id": 231,
         "aliases": [
             "Coral Chordmaker",
             "Royal Chordmaker",
@@ -3587,7 +3321,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 236,
+        "id": 232,
         "aliases": [
             "Devil's Maestro",
             "Deep Vero"
@@ -3598,7 +3332,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 237,
+        "id": 233,
         "aliases": [
             "Hoarcry Sectored",
             "Lilim Glacia"
@@ -3609,7 +3343,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 238,
+        "id": 234,
         "aliases": [
             "Rooksearer Drum",
             "Bazel Valdi Rooksearer"
@@ -3620,7 +3354,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 239,
+        "id": 235,
         "aliases": [
             "Ruinous Desolation"
         ],
@@ -3630,7 +3364,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 240,
+        "id": 236,
         "aliases": [
             "Striped Dragonga",
             "Striped Dragonga+",
@@ -3642,7 +3376,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 241,
+        "id": 237,
         "aliases": [
             "Hidden Harmonic",
             "Hidden Harmonic+",
@@ -3654,7 +3388,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 242,
+        "id": 238,
         "aliases": [
             "Hell Horn",
             "Hell Horn+",
@@ -3666,7 +3400,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 243,
+        "id": 239,
         "aliases": [
             "Sulfurteinn Svild",
             "The Rasping Ballad"
@@ -3677,7 +3411,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 244,
+        "id": 240,
         "aliases": [
             "Austere Paradise"
         ],
@@ -3687,7 +3421,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 245,
+        "id": 241,
         "aliases": [
             "Fate's Dirge"
         ],
@@ -3697,7 +3431,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 246,
+        "id": 242,
         "aliases": [
             "Usurper's Growl",
             "Usurper's Growl+",
@@ -3709,7 +3443,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 247,
+        "id": 243,
         "aliases": [
             "Brimstren Drakesong",
             "Stygian Tristitia"
@@ -3720,7 +3454,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 248,
+        "id": 244,
         "aliases": [
             "Raven Shamisen",
             "Wolf Shamisen"
@@ -3731,7 +3465,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 249,
+        "id": 245,
         "aliases": [
             "Gold Chordmaker"
         ],
@@ -3741,7 +3475,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 250,
+        "id": 246,
         "aliases": [
             "Denden Daiko",
             "Denden Doomsounder"
@@ -3752,7 +3486,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 251,
+        "id": 247,
         "aliases": [
             "Demonlord Wardrum"
         ],
@@ -3762,7 +3496,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 252,
+        "id": 248,
         "aliases": [
             "Safi's Hellhorn",
             "Safi's Aquahorn",
@@ -3780,7 +3514,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 253,
+        "id": 249,
         "aliases": [
             "Alatreon Harmony",
             "Alatreon Revival"
@@ -3791,7 +3525,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 254,
+        "id": 250,
         "aliases": [
             "Guild Palace Bard",
             "Royal Song Symphony"
@@ -3802,7 +3536,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 255,
+        "id": 251,
         "aliases": [
             "Accursed Wail",
             "Ogrebite"
@@ -3813,7 +3547,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 256,
+        "id": 252,
         "aliases": [
             "Bringuiro"
         ],
@@ -3823,7 +3557,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 257,
+        "id": 253,
         "aliases": [
             "Fatalis Menace",
             "Fatalis Menace Wailer"
@@ -3834,25 +3568,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 258,
-        "aliases": [
-            "Safi's Hellhorn",
-            "Safi's Aquahorn",
-            "Safi's Frosthorn",
-            "Safi's Bolthorn",
-            "Safi's Drakhorn",
-            "Safi's Venomhorn",
-            "Safi's Bindhorn",
-            "Safi's Dreamhorn",
-            "Safi's Shatterhorn"
-        ],
-        "obj_path": "wp/hue/hue030/hue030.obj",
-        "mtl_path": "wp/hue/hue030/hue030.mtl",
-        "tex_path": "wp/hue/hue030/hue030_BML.PNG",
-        "category": "Hunting Horn"
-    },
-    {
-        "id": 259,
+        "id": 254,
         "aliases": [
             "Lightbreak Timbre"
         ],
@@ -3862,7 +3578,7 @@
         "category": "Hunting Horn"
     },
     {
-        "id": 260,
+        "id": 255,
         "aliases": [
             "Iron Lance I",
             "Iron Lance II",
@@ -3897,7 +3613,7 @@
         "category": "Lance"
     },
     {
-        "id": 261,
+        "id": 256,
         "aliases": [
             "Kulu Hasta I",
             "Kulu Hasta II",
@@ -3921,7 +3637,7 @@
         "category": "Lance"
     },
     {
-        "id": 262,
+        "id": 257,
         "aliases": [
             "Chrome Lance I",
             "Chrome Lance II",
@@ -3944,7 +3660,7 @@
         "category": "Lance"
     },
     {
-        "id": 263,
+        "id": 258,
         "aliases": [
             "Bone Lance I",
             "Bone Lance II",
@@ -3975,7 +3691,7 @@
         "category": "Lance"
     },
     {
-        "id": 264,
+        "id": 259,
         "aliases": [
             "Garon Dhara I",
             "Garon Dhara II",
@@ -3992,7 +3708,7 @@
         "category": "Lance"
     },
     {
-        "id": 265,
+        "id": 260,
         "aliases": [
             "Dark Stinger I",
             "Dark Stinger II",
@@ -4009,20 +3725,8 @@
         "category": "Lance"
     },
     {
-        "id": 266,
+        "id": 261,
         "aliases": [
-            "Gold Water Defender",
-            "Gold Thunder Defender",
-            "Gold Sleep Defender",
-            "Thief Gold Defender",
-            "Spew Gold Defender",
-            "Mud Gold Defender",
-            "Lurk Gold Defender",
-            "Stream Gold Defender",
-            "Claw Gold Defender",
-            "Decay Gold Defender",
-            "King Gold Defender",
-            "Crusher Gold Defender",
             "Gold Water Defender",
             "Gold Thunder Defender",
             "Gold Sleep Defender",
@@ -4042,21 +3746,8 @@
         "category": "Lance"
     },
     {
-        "id": 267,
+        "id": 262,
         "aliases": [
-            "Taroth Crest \"Thief\"",
-            "Taroth Crest \"Spew\"",
-            "Taroth Crest \"Mud\"",
-            "Taroth Crest \"Lurk\"",
-            "Taroth Crest \"Stream\"",
-            "Taroth Crest \"Claw\"",
-            "Taroth Crest \"Decay\"",
-            "Taroth Crest \"King\"",
-            "Taroth Crest \"Crusher\"",
-            "Taroth Crest \"Water\"",
-            "Taroth Crest \"Thunder\"",
-            "Taroth Crest \"Sleep\"",
-            "Taroth Crest \"Poison\"",
             "Taroth Crest \"Thief\"",
             "Taroth Crest \"Spew\"",
             "Taroth Crest \"Mud\"",
@@ -4077,7 +3768,7 @@
         "category": "Lance"
     },
     {
-        "id": 268,
+        "id": 263,
         "aliases": [
             "Empress Lance",
             "Empress Lance \"Blaze\"",
@@ -4093,7 +3784,7 @@
         "category": "Lance"
     },
     {
-        "id": 269,
+        "id": 264,
         "aliases": [
             "Chrome Drill I",
             "Chrome Drill II",
@@ -4113,7 +3804,7 @@
         "category": "Lance"
     },
     {
-        "id": 270,
+        "id": 265,
         "aliases": [
             "Grand Halberd I",
             "Grand Halberd II",
@@ -4133,7 +3824,7 @@
         "category": "Lance"
     },
     {
-        "id": 271,
+        "id": 266,
         "aliases": [
             "Iceborer",
             "Knightly Ectis"
@@ -4144,12 +3835,8 @@
         "category": "Lance"
     },
     {
-        "id": 272,
+        "id": 267,
         "aliases": [
-            "Kj\u00e1rr Crest \"Stream\"",
-            "Kj\u00e1rr Crest \"Decay\"",
-            "Kj\u00e1rr Crest \"King\"",
-            "Kj\u00e1rr Crest \"Crusher\"",
             "Kj\u00e1rr Crest \"Stream\"",
             "Kj\u00e1rr Crest \"Decay\"",
             "Kj\u00e1rr Crest \"King\"",
@@ -4161,11 +3848,8 @@
         "category": "Lance"
     },
     {
-        "id": 273,
+        "id": 268,
         "aliases": [
-            "Kj\u00e1rr Crest \"Paralysis\"",
-            "Kj\u00e1rr Crest \"Water\"",
-            "Kj\u00e1rr Crest \"Thunder\"",
             "Kj\u00e1rr Crest \"Paralysis\"",
             "Kj\u00e1rr Crest \"Water\"",
             "Kj\u00e1rr Crest \"Thunder\""
@@ -4176,7 +3860,7 @@
         "category": "Lance"
     },
     {
-        "id": 274,
+        "id": 269,
         "aliases": [
             "Red Tail"
         ],
@@ -4186,7 +3870,7 @@
         "category": "Lance"
     },
     {
-        "id": 275,
+        "id": 270,
         "aliases": [
             "Icesteel Spear",
             "Daora's Fang",
@@ -4198,7 +3882,7 @@
         "category": "Lance"
     },
     {
-        "id": 276,
+        "id": 271,
         "aliases": [
             "Thunderpike",
             "Thunderspear",
@@ -4211,7 +3895,7 @@
         "category": "Lance"
     },
     {
-        "id": 277,
+        "id": 272,
         "aliases": [
             "Perdition's Hand"
         ],
@@ -4221,7 +3905,7 @@
         "category": "Lance"
     },
     {
-        "id": 278,
+        "id": 273,
         "aliases": [
             "Love's Sorrow"
         ],
@@ -4231,7 +3915,7 @@
         "category": "Lance"
     },
     {
-        "id": 279,
+        "id": 274,
         "aliases": [
             "Rookslayer Lance",
             "Bazel Myniad Rookslayer"
@@ -4242,7 +3926,7 @@
         "category": "Lance"
     },
     {
-        "id": 280,
+        "id": 275,
         "aliases": [
             "Babel Spear",
             "Elder Babel Spear",
@@ -4254,7 +3938,7 @@
         "category": "Lance"
     },
     {
-        "id": 281,
+        "id": 276,
         "aliases": [
             "Blue Tail",
             "Blue Prominence",
@@ -4267,7 +3951,7 @@
         "category": "Lance"
     },
     {
-        "id": 282,
+        "id": 277,
         "aliases": [
             "Grief Lance",
             "Fiendish Tower"
@@ -4278,7 +3962,7 @@
         "category": "Lance"
     },
     {
-        "id": 283,
+        "id": 278,
         "aliases": [
             "Love's Tragedy",
             "Love's End"
@@ -4289,7 +3973,7 @@
         "category": "Lance"
     },
     {
-        "id": 284,
+        "id": 279,
         "aliases": [
             "Blasting Siegespear",
             "Bazel Rocket Rooksearer"
@@ -4300,7 +3984,7 @@
         "category": "Lance"
     },
     {
-        "id": 285,
+        "id": 280,
         "aliases": [
             "Ruinous Perdition"
         ],
@@ -4310,7 +3994,7 @@
         "category": "Lance"
     },
     {
-        "id": 286,
+        "id": 281,
         "aliases": [
             "Tiger Stinger",
             "Tiger Stinger+",
@@ -4322,7 +4006,7 @@
         "category": "Lance"
     },
     {
-        "id": 287,
+        "id": 282,
         "aliases": [
             "Svarog Blazer",
             "Svarog Blazer+",
@@ -4334,7 +4018,7 @@
         "category": "Lance"
     },
     {
-        "id": 288,
+        "id": 283,
         "aliases": [
             "Sulfurteinn Keton",
             "The Solvent Spindle"
@@ -4345,7 +4029,7 @@
         "category": "Lance"
     },
     {
-        "id": 289,
+        "id": 284,
         "aliases": [
             "Unblinking Gatekeeper"
         ],
@@ -4355,7 +4039,7 @@
         "category": "Lance"
     },
     {
-        "id": 290,
+        "id": 285,
         "aliases": [
             "Fate's Spindle"
         ],
@@ -4365,7 +4049,7 @@
         "category": "Lance"
     },
     {
-        "id": 291,
+        "id": 286,
         "aliases": [
             "Shooting Star Lance",
             "Sapphire Star Lance",
@@ -4377,7 +4061,7 @@
         "category": "Lance"
     },
     {
-        "id": 292,
+        "id": 287,
         "aliases": [
             "Fair Wind Lance",
             "White Wind Lance",
@@ -4389,7 +4073,7 @@
         "category": "Lance"
     },
     {
-        "id": 293,
+        "id": 288,
         "aliases": [
             "Tusk Lance",
             "Tusk Lance+",
@@ -4401,7 +4085,7 @@
         "category": "Lance"
     },
     {
-        "id": 294,
+        "id": 289,
         "aliases": [
             "Incessant Raven",
             "Incessant Wolf"
@@ -4412,7 +4096,7 @@
         "category": "Lance"
     },
     {
-        "id": 295,
+        "id": 290,
         "aliases": [
             "Silver Prominence"
         ],
@@ -4422,7 +4106,7 @@
         "category": "Lance"
     },
     {
-        "id": 296,
+        "id": 291,
         "aliases": [
             "Demon Lance",
             "Great Demon Lance"
@@ -4433,7 +4117,7 @@
         "category": "Lance"
     },
     {
-        "id": 297,
+        "id": 292,
         "aliases": [
             "Demonlord Rajang"
         ],
@@ -4443,7 +4127,7 @@
         "category": "Lance"
     },
     {
-        "id": 298,
+        "id": 293,
         "aliases": [
             "Safi's Hellsnout",
             "Safi's Aquasnout",
@@ -4461,7 +4145,7 @@
         "category": "Lance"
     },
     {
-        "id": 299,
+        "id": 294,
         "aliases": [
             "Alatreon Lance",
             "Alatreon Gleam"
@@ -4472,7 +4156,7 @@
         "category": "Lance"
     },
     {
-        "id": 300,
+        "id": 295,
         "aliases": [
             "Accursed Stinger",
             "Backbite"
@@ -4483,7 +4167,7 @@
         "category": "Lance"
     },
     {
-        "id": 301,
+        "id": 296,
         "aliases": [
             "Guild Palace Tower",
             "Royal Grace Pike"
@@ -4494,7 +4178,7 @@
         "category": "Lance"
     },
     {
-        "id": 302,
+        "id": 297,
         "aliases": [
             "Saber Fang"
         ],
@@ -4504,7 +4188,7 @@
         "category": "Lance"
     },
     {
-        "id": 303,
+        "id": 298,
         "aliases": [
             "Fatalis Lance",
             "True Fatalis Lance"
@@ -4515,25 +4199,7 @@
         "category": "Lance"
     },
     {
-        "id": 304,
-        "aliases": [
-            "Safi's Hellsnout",
-            "Safi's Aquasnout",
-            "Safi's Frostsnout",
-            "Safi's Boltsnout",
-            "Safi's Draksnout",
-            "Safi's Venomsnout",
-            "Safi's Bindsnout",
-            "Safi's Dreamsnout",
-            "Safi's Shattersnout"
-        ],
-        "obj_path": "wp/lan/lan031/lan031.obj",
-        "mtl_path": "wp/lan/lan031/lan031.mtl",
-        "tex_path": "wp/lan/lan031/lan031_BML.PNG",
-        "category": "Lance"
-    },
-    {
-        "id": 305,
+        "id": 299,
         "aliases": [
             "Lightbreak Lance"
         ],
@@ -4543,7 +4209,7 @@
         "category": "Lance"
     },
     {
-        "id": 306,
+        "id": 300,
         "aliases": [
             "Chain Blitz I",
             "Chain Blitz II",
@@ -4599,7 +4265,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 307,
+        "id": 301,
         "aliases": [
             "Hunter's Rifle I",
             "Hunter's Rifle II",
@@ -4643,21 +4309,8 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 308,
+        "id": 302,
         "aliases": [
-            "Gold Pierce Razer",
-            "Gold Spread Razer",
-            "Gold Shot Razer",
-            "Glutton Gold Razer",
-            "Mire Gold Razer",
-            "Mud Gold Razer",
-            "Rage Gold Razer",
-            "Drifter Gold Razer",
-            "Claw Gold Razer",
-            "Decay Gold Razer",
-            "King Gold Razer",
-            "Erupter Gold Razer",
-            "Bomber Gold Razer",
             "Gold Pierce Razer",
             "Gold Spread Razer",
             "Gold Shot Razer",
@@ -4678,22 +4331,8 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 309,
+        "id": 303,
         "aliases": [
-            "Taroth Blitz \"Glutton\"",
-            "Taroth Blitz \"Mire\"",
-            "Taroth Blitz \"Mud\"",
-            "Taroth Blitz \"Rage\"",
-            "Taroth Blitz \"Drifter\"",
-            "Taroth Blitz \"Claw\"",
-            "Taroth Blitz \"Decay\"",
-            "Taroth Blitz \"King\"",
-            "Taroth Blitz \"Erupter\"",
-            "Taroth Blitz \"Bomber\"",
-            "Taroth Blitz \"Pierce\"",
-            "Taroth Blitz \"Spread\"",
-            "Taroth Blitz \"Shot\"",
-            "Taroth Blitz \"Support\"",
             "Taroth Blitz \"Glutton\"",
             "Taroth Blitz \"Mire\"",
             "Taroth Blitz \"Mud\"",
@@ -4715,7 +4354,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 310,
+        "id": 304,
         "aliases": [
             "Empress Shell",
             "Empress Shell \"Blaze\"",
@@ -4731,7 +4370,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 311,
+        "id": 305,
         "aliases": [
             "Crossblitzer I",
             "Crossblitzer II",
@@ -4763,7 +4402,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 312,
+        "id": 306,
         "aliases": [
             "Breakshot I",
             "Breakshot II",
@@ -4789,7 +4428,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 313,
+        "id": 307,
         "aliases": [
             "Icehawk",
             "Graceful Almaria"
@@ -4800,12 +4439,8 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 314,
+        "id": 308,
         "aliases": [
-            "Kj\u00e1rr Blitz \"Bomber\"",
-            "Kj\u00e1rr Blitz \"Claw\"",
-            "Kj\u00e1rr Blitz \"Decay\"",
-            "Kj\u00e1rr Blitz \"King\"",
             "Kj\u00e1rr Blitz \"Bomber\"",
             "Kj\u00e1rr Blitz \"Claw\"",
             "Kj\u00e1rr Blitz \"Decay\"",
@@ -4817,10 +4452,8 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 315,
+        "id": 309,
         "aliases": [
-            "Kj\u00e1rr Blitz \"Thunder\"",
-            "Kj\u00e1rr Blitz \"Ice\"",
             "Kj\u00e1rr Blitz \"Thunder\"",
             "Kj\u00e1rr Blitz \"Ice\""
         ],
@@ -4830,7 +4463,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 316,
+        "id": 310,
         "aliases": [
             "Onigashima",
             "Dai-Onigashima",
@@ -4842,7 +4475,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 317,
+        "id": 311,
         "aliases": [
             "Mythical Horn",
             "Mythical Horn+",
@@ -4855,7 +4488,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 318,
+        "id": 312,
         "aliases": [
             "Icesteel Wasp",
             "Daora's Hornet",
@@ -4867,7 +4500,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 319,
+        "id": 313,
         "aliases": [
             "Cataclysm's Trigger"
         ],
@@ -4877,7 +4510,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 320,
+        "id": 314,
         "aliases": [
             "Gulgoleth's Wail"
         ],
@@ -4887,7 +4520,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 321,
+        "id": 315,
         "aliases": [
             "Fate's Ember",
             "Karma",
@@ -4899,7 +4532,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 322,
+        "id": 316,
         "aliases": [
             "Cross Bowgun",
             "Great Bowgun",
@@ -4911,7 +4544,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 323,
+        "id": 317,
         "aliases": [
             "Devil's Grin",
             "Devil's Madness"
@@ -4922,7 +4555,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 324,
+        "id": 318,
         "aliases": [
             "Nether Salvo",
             "Ghost"
@@ -4933,7 +4566,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 325,
+        "id": 319,
         "aliases": [
             "Gulgoleth's Despair",
             "Gulgoleth's Ruin"
@@ -4944,7 +4577,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 326,
+        "id": 320,
         "aliases": [
             "Ruinous Cataclysm"
         ],
@@ -4954,7 +4587,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 327,
+        "id": 321,
         "aliases": [
             "Blizzard Cannon",
             "Blizzard Cannon+",
@@ -4966,7 +4599,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 328,
+        "id": 322,
         "aliases": [
             "Hydra Actinula",
             "Black Actinula"
@@ -4977,7 +4610,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 329,
+        "id": 323,
         "aliases": [
             "Fading Blossom"
         ],
@@ -4987,7 +4620,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 330,
+        "id": 324,
         "aliases": [
             "Diregun \"Dementia\""
         ],
@@ -4997,7 +4630,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 331,
+        "id": 325,
         "aliases": [
             "Usurper's Crime",
             "Usurper's Crime+",
@@ -5009,7 +4642,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 332,
+        "id": 326,
         "aliases": [
             "Brimstren Drakekiss",
             "Brimstren Drakevow"
@@ -5020,7 +4653,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 333,
+        "id": 327,
         "aliases": [
             "Rajang Barrage",
             "Ten Thousand Volts"
@@ -5031,7 +4664,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 334,
+        "id": 328,
         "aliases": [
             "Demonlord Cannon"
         ],
@@ -5041,7 +4674,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 335,
+        "id": 329,
         "aliases": [
             "Safi's Hellshot",
             "Safi's Frostshot",
@@ -5055,7 +4688,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 336,
+        "id": 330,
         "aliases": [
             "Alatreon Razer",
             "Alatreon Dominator"
@@ -5066,7 +4699,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 337,
+        "id": 331,
         "aliases": [
             "Guild Palace Bowgun",
             "Royal Surefire Shot"
@@ -5077,7 +4710,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 338,
+        "id": 332,
         "aliases": [
             "Blizzard Gust"
         ],
@@ -5087,7 +4720,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 339,
+        "id": 333,
         "aliases": [
             "Fatalis Pit",
             "Fatalis Depths"
@@ -5098,21 +4731,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 340,
-        "aliases": [
-            "Safi's Hellshot",
-            "Safi's Frostshot",
-            "Safi's Boltshot",
-            "Safi's Aquashot",
-            "Safi's Drakshot"
-        ],
-        "obj_path": "wp/lbg/lbg026/lbg026.obj",
-        "mtl_path": "wp/lbg/lbg026/lbg026.mtl",
-        "tex_path": "wp/lbg/lbg026/lbg026_BML.PNG",
-        "category": "Light Bowgun"
-    },
-    {
-        "id": 341,
+        "id": 334,
         "aliases": [
             "Lightbreak Gun"
         ],
@@ -5122,7 +4741,7 @@
         "category": "Light Bowgun"
     },
     {
-        "id": 342,
+        "id": 335,
         "aliases": [
             "Hunter's Knife I",
             "Hunter's Knife II",
@@ -5155,7 +4774,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 343,
+        "id": 336,
         "aliases": [
             "Rogue Wave I",
             "Rogue Wave II",
@@ -5175,7 +4794,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 344,
+        "id": 337,
         "aliases": [
             "Nergal Jack",
             "Lumu Tabar I",
@@ -5200,7 +4819,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 345,
+        "id": 338,
         "aliases": [
             "Bone Kukri I",
             "Bone Kukri II",
@@ -5231,7 +4850,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 346,
+        "id": 339,
         "aliases": [
             "Grand Barong I",
             "Grand Barong II",
@@ -5255,7 +4874,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 347,
+        "id": 340,
         "aliases": [
             "Baan Claw I",
             "Baan Claw II",
@@ -5275,21 +4894,8 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 348,
+        "id": 341,
         "aliases": [
-            "Gold Water Scimitar",
-            "Gold Dragon Scimitar",
-            "Gold Blast Scimitar",
-            "Glutton Gold Scimitar",
-            "Spew Gold Scimitar",
-            "Mud Gold Scimitar",
-            "Rage Gold Scimitar",
-            "Numb Gold Scimitar",
-            "Drifter Gold Scimitar",
-            "Stream Gold Scimitar",
-            "Tar Gold Scimitar",
-            "King Gold Scimitar",
-            "Myth Gold Scimitar",
             "Gold Water Scimitar",
             "Gold Dragon Scimitar",
             "Gold Blast Scimitar",
@@ -5310,22 +4916,8 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 349,
+        "id": 342,
         "aliases": [
-            "Taroth Slicer \"Glutton\"",
-            "Taroth Slicer \"Spew\"",
-            "Taroth Slicer \"Mud\"",
-            "Taroth Slicer \"Rage\"",
-            "Taroth Slicer \"Numb\"",
-            "Taroth Slicer \"Drifter\"",
-            "Taroth Slicer \"Stream\"",
-            "Taroth Slicer \"Tar\"",
-            "Taroth Slicer \"King\"",
-            "Taroth Slicer \"Myth\"",
-            "Taroth Slicer \"Water\"",
-            "Taroth Slicer \"Dragon\"",
-            "Taroth Slicer \"Blast\"",
-            "Taroth Slicer \"Fire\"",
             "Taroth Slicer \"Glutton\"",
             "Taroth Slicer \"Spew\"",
             "Taroth Slicer \"Mud\"",
@@ -5347,7 +4939,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 350,
+        "id": 343,
         "aliases": [
             "Empress Edge",
             "Empress Edge \"Blaze\"",
@@ -5363,7 +4955,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 351,
+        "id": 344,
         "aliases": [
             "Chrome Knight Sword I",
             "Chrome Knight Sword II",
@@ -5379,7 +4971,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 352,
+        "id": 345,
         "aliases": [
             "Radobaan Os I",
             "Radobaan Os II",
@@ -5396,7 +4988,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 353,
+        "id": 346,
         "aliases": [
             "Icegale",
             "Noble Ana Palas"
@@ -5407,12 +4999,8 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 354,
+        "id": 347,
         "aliases": [
-            "Kj\u00e1rr Slicer \"Numb\"",
-            "Kj\u00e1rr Slicer \"Stream\"",
-            "Kj\u00e1rr Slicer \"King\"",
-            "Kj\u00e1rr Slicer \"Myth\"",
             "Kj\u00e1rr Slicer \"Numb\"",
             "Kj\u00e1rr Slicer \"Stream\"",
             "Kj\u00e1rr Slicer \"King\"",
@@ -5424,11 +5012,8 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 355,
+        "id": 348,
         "aliases": [
-            "Kj\u00e1rr Slicer \"Water\"",
-            "Kj\u00e1rr Slicer \"Dragon\"",
-            "Kj\u00e1rr Slicer \"Blast\"",
             "Kj\u00e1rr Slicer \"Water\"",
             "Kj\u00e1rr Slicer \"Dragon\"",
             "Kj\u00e1rr Slicer \"Blast\""
@@ -5439,7 +5024,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 356,
+        "id": 349,
         "aliases": [
             "Teostra's Spada",
             "Teostra's Emblem",
@@ -5451,7 +5036,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 357,
+        "id": 350,
         "aliases": [
             "Heat Edge",
             "Corona",
@@ -5463,7 +5048,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 358,
+        "id": 351,
         "aliases": [
             "Princess Rapier",
             "Queen Rapier"
@@ -5474,7 +5059,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 359,
+        "id": 352,
         "aliases": [
             "Eradication Vanguard"
         ],
@@ -5484,7 +5069,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 360,
+        "id": 353,
         "aliases": [
             "Rimespire",
             "Legia Rimespire",
@@ -5496,7 +5081,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 361,
+        "id": 354,
         "aliases": [
             "Flammensucher",
             "Gnashing Flammensucher",
@@ -5509,7 +5094,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 362,
+        "id": 355,
         "aliases": [
             "Heavy Bang",
             "Heavy Bang+",
@@ -5521,7 +5106,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 363,
+        "id": 356,
         "aliases": [
             "Queen Rose",
             "Royal Rose",
@@ -5534,7 +5119,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 364,
+        "id": 357,
         "aliases": [
             "Fatal Jho",
             "Fatal Bite"
@@ -5545,7 +5130,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 365,
+        "id": 358,
         "aliases": [
             "Rex Talon",
             "Rex Talon+",
@@ -5557,7 +5142,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 366,
+        "id": 359,
         "aliases": [
             "Donnersieger",
             "Donnersieger+",
@@ -5569,7 +5154,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 367,
+        "id": 360,
         "aliases": [
             "Hoarcry Rimespire",
             "Nephilim Glacia"
@@ -5580,7 +5165,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 368,
+        "id": 361,
         "aliases": [
             "Ruinous Madness"
         ],
@@ -5590,7 +5175,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 369,
+        "id": 362,
         "aliases": [
             "Hidden Edge",
             "Hidden Edge+",
@@ -5602,7 +5187,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 370,
+        "id": 363,
         "aliases": [
             "Dios Edge",
             "Booming Barrage"
@@ -5613,7 +5198,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 371,
+        "id": 364,
         "aliases": [
             "Manifested Lotus"
         ],
@@ -5623,7 +5208,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 372,
+        "id": 365,
         "aliases": [
             "Fate's Shear"
         ],
@@ -5633,7 +5218,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 373,
+        "id": 366,
         "aliases": [
             "Icicle Spike",
             "Icicle Spike+",
@@ -5645,7 +5230,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 374,
+        "id": 367,
         "aliases": [
             "Usurper's Firebolt",
             "Usurper's Firebolt+",
@@ -5657,7 +5242,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 375,
+        "id": 368,
         "aliases": [
             "Brimstren Drakescale",
             "Stygian Luxuria"
@@ -5668,7 +5253,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 376,
+        "id": 369,
         "aliases": [
             "Lunatic Rose"
         ],
@@ -5678,7 +5263,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 377,
+        "id": 370,
         "aliases": [
             "Platinum Dawn"
         ],
@@ -5688,7 +5273,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 378,
+        "id": 371,
         "aliases": [
             "Rajang Club",
             "Banned Rajang Club"
@@ -5699,7 +5284,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 379,
+        "id": 372,
         "aliases": [
             "Demonlord Mace"
         ],
@@ -5709,7 +5294,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 380,
+        "id": 373,
         "aliases": [
             "Lightbreak Sword"
         ],
@@ -5719,7 +5304,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 381,
+        "id": 374,
         "aliases": [
             "Safi's Hellfang",
             "Safi's Aquafang",
@@ -5737,7 +5322,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 382,
+        "id": 375,
         "aliases": [
             "Alatreon Sword",
             "Alatreon Star"
@@ -5748,7 +5333,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 383,
+        "id": 376,
         "aliases": [
             "Legacy Bang",
             "Legendary Bang"
@@ -5759,7 +5344,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 384,
+        "id": 377,
         "aliases": [
             "Blue Corona"
         ],
@@ -5769,7 +5354,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 385,
+        "id": 378,
         "aliases": [
             "Witcher's Silver Sword",
             "Witcher's Silver Sword+",
@@ -5781,7 +5366,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 386,
+        "id": 379,
         "aliases": [
             "Guild Palace Sword",
             "Royal Nova Sword"
@@ -5792,7 +5377,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 387,
+        "id": 380,
         "aliases": [
             "Accursed Claw",
             "Stonebite"
@@ -5803,7 +5388,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 388,
+        "id": 381,
         "aliases": [
             "Silverbosche"
         ],
@@ -5813,7 +5398,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 389,
+        "id": 382,
         "aliases": [
             "Fatalis Sword",
             "True Fatalis Sword"
@@ -5824,25 +5409,7 @@
         "category": "Sword and Shield"
     },
     {
-        "id": 390,
-        "aliases": [
-            "Safi's Hellfang",
-            "Safi's Aquafang",
-            "Safi's Frostfang",
-            "Safi's Boltfang",
-            "Safi's Drakfang",
-            "Safi's Venomfang",
-            "Safi's Bindfang",
-            "Safi's Dreamfang",
-            "Safi's Shatterfang"
-        ],
-        "obj_path": "wp/one/one035/one035.obj",
-        "mtl_path": "wp/one/one035/one035.mtl",
-        "tex_path": "wp/one/one035/one035_BML.PNG",
-        "category": "Sword and Shield"
-    },
-    {
-        "id": 391,
+        "id": 383,
         "aliases": [
             "Indigo Flash",
             "Azure Bolt",
@@ -5855,7 +5422,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 392,
+        "id": 384,
         "aliases": [
             "Daora's Entom",
             "Daora's Tethidine",
@@ -5867,7 +5434,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 393,
+        "id": 385,
         "aliases": [
             "Rathmaul",
             "Firedance Rathmaul",
@@ -5879,7 +5446,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 394,
+        "id": 386,
         "aliases": [
             "Catastrophe's Light"
         ],
@@ -5889,7 +5456,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 395,
+        "id": 387,
         "aliases": [
             "Flammenkaefer",
             "Flammenkaefer+",
@@ -5903,7 +5470,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 396,
+        "id": 388,
         "aliases": [
             "Temptation's Trident",
             "Vice",
@@ -5916,7 +5483,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 397,
+        "id": 389,
         "aliases": [
             "Bad Wing",
             "Grunge Storm"
@@ -5927,7 +5494,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 398,
+        "id": 390,
         "aliases": [
             "Gae Bolg",
             "True Gae Bolg",
@@ -5939,7 +5506,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 399,
+        "id": 391,
         "aliases": [
             "Donnerspitze",
             "Donnerspitze+",
@@ -5951,7 +5518,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 400,
+        "id": 392,
         "aliases": [
             "Nether Vajra",
             "Deadline"
@@ -5962,7 +5529,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 401,
+        "id": 393,
         "aliases": [
             "Ruinous Catastrophe"
         ],
@@ -5972,7 +5539,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 402,
+        "id": 394,
         "aliases": [
             "Amber Piton",
             "Amber Piton+",
@@ -5984,7 +5551,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 403,
+        "id": 395,
         "aliases": [
             "Dios Rod",
             "Electrorod"
@@ -5995,7 +5562,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 404,
+        "id": 396,
         "aliases": [
             "Flaming Teuza",
             "Flaming Teuza+",
@@ -6007,7 +5574,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 405,
+        "id": 397,
         "aliases": [
             "Sulfurteinn Spiran",
             "The Trickling Spiral"
@@ -6018,7 +5585,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 406,
+        "id": 398,
         "aliases": [
             "Infinite Wisdom"
         ],
@@ -6028,7 +5595,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 407,
+        "id": 399,
         "aliases": [
             "Fate's Wing"
         ],
@@ -6038,7 +5605,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 408,
+        "id": 400,
         "aliases": [
             "Royal Bolt Scepter",
             "Royal Bolt Scepter+",
@@ -6050,7 +5617,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 409,
+        "id": 401,
         "aliases": [
             "Brimstren Drakerod",
             "Stygian Oblivia"
@@ -6061,7 +5628,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 410,
+        "id": 402,
         "aliases": [
             "Blossomajesty"
         ],
@@ -6071,7 +5638,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 411,
+        "id": 403,
         "aliases": [
             "Metal Mauler",
             "Metalmangler"
@@ -6082,7 +5649,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 412,
+        "id": 404,
         "aliases": [
             "Demonlord Cudgel"
         ],
@@ -6092,7 +5659,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 413,
+        "id": 405,
         "aliases": [
             "Lightbreak Press"
         ],
@@ -6102,7 +5669,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 414,
+        "id": 406,
         "aliases": [
             "Safi's Hellspear",
             "Safi's Aquaspear",
@@ -6120,7 +5687,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 415,
+        "id": 407,
         "aliases": [
             "Alatreon Dragonspire",
             "Alatreon Embrace"
@@ -6131,7 +5698,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 416,
+        "id": 408,
         "aliases": [
             "Azure Flightmaster"
         ],
@@ -6141,7 +5708,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 417,
+        "id": 409,
         "aliases": [
             "Guild Palace Rod",
             "Royal March Banner"
@@ -6152,7 +5719,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 418,
+        "id": 410,
         "aliases": [
             "Fenrir Rose"
         ],
@@ -6162,7 +5729,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 419,
+        "id": 411,
         "aliases": [
             "Fatalis Glaive",
             "True Fatalis Dyaus"
@@ -6173,25 +5740,7 @@
         "category": "Insect Glaive"
     },
     {
-        "id": 420,
-        "aliases": [
-            "Safi's Hellspear",
-            "Safi's Aquaspear",
-            "Safi's Frostspear",
-            "Safi's Boltspear",
-            "Safi's Drakspear",
-            "Safi's Venomspear",
-            "Safi's Bindspear",
-            "Safi's Dreamspear",
-            "Safi's Shatterspear"
-        ],
-        "obj_path": "wp/rod/rod030/rod030.obj",
-        "mtl_path": "wp/rod/rod030/rod030.mtl",
-        "tex_path": "wp/rod/rod030/rod030_BML.PNG",
-        "category": "Insect Glaive"
-    },
-    {
-        "id": 421,
+        "id": 412,
         "aliases": [
             "Proto Iron Axe I",
             "Proto Iron Axe II",
@@ -6226,7 +5775,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 422,
+        "id": 413,
         "aliases": [
             "Lightning Chopper I",
             "Lightning Chopper II",
@@ -6268,7 +5817,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 423,
+        "id": 414,
         "aliases": [
             "Bone Axe I",
             "Bone Axe II",
@@ -6309,7 +5858,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 424,
+        "id": 415,
         "aliases": [
             "Jyura Drought I",
             "Jyura Drought II",
@@ -6328,21 +5877,8 @@
         "category": "Switch Axe"
     },
     {
-        "id": 425,
+        "id": 416,
         "aliases": [
-            "Gold Thunder Chopper",
-            "Gold Paralysis Chopper",
-            "Gold Sleep Chopper",
-            "Glutton Gold Chopper",
-            "Mire Gold Chopper",
-            "Mud Gold Chopper",
-            "Drifter Gold Chopper",
-            "Stream Gold Chopper",
-            "Decay Gold Chopper",
-            "King Gold Chopper",
-            "Horn Gold Chopper",
-            "Gyre Gold Chopper",
-            "Bomber Gold Chopper",
             "Gold Thunder Chopper",
             "Gold Paralysis Chopper",
             "Gold Sleep Chopper",
@@ -6363,22 +5899,8 @@
         "category": "Switch Axe"
     },
     {
-        "id": 426,
+        "id": 417,
         "aliases": [
-            "Taroth Axe \"Glutton\"",
-            "Taroth Axe \"Mire\"",
-            "Taroth Axe \"Mud\"",
-            "Taroth Axe \"Drifter\"",
-            "Taroth Axe \"Stream\"",
-            "Taroth Axe \"Decay\"",
-            "Taroth Axe \"King\"",
-            "Taroth Axe \"Horn\"",
-            "Taroth Axe \"Gyre\"",
-            "Taroth Axe \"Bomber\"",
-            "Taroth Axe \"Thunder\"",
-            "Taroth Axe \"Paralysis\"",
-            "Taroth Axe \"Sleep\"",
-            "Taroth Axe \"Water\"",
             "Taroth Axe \"Glutton\"",
             "Taroth Axe \"Mire\"",
             "Taroth Axe \"Mud\"",
@@ -6400,7 +5922,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 427,
+        "id": 418,
         "aliases": [
             "Empress Axe",
             "Empress Axe \"Blaze\"",
@@ -6416,7 +5938,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 428,
+        "id": 419,
         "aliases": [
             "Chrome Machina I",
             "Chrome Machina II",
@@ -6430,7 +5952,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 429,
+        "id": 420,
         "aliases": [
             "Mighty Gear I",
             "Mighty Gear II",
@@ -6451,7 +5973,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 430,
+        "id": 421,
         "aliases": [
             "Icerood",
             "Wicked Niddoq"
@@ -6462,12 +5984,8 @@
         "category": "Switch Axe"
     },
     {
-        "id": 431,
+        "id": 422,
         "aliases": [
-            "Kj\u00e1rr Axe \"Stream\"",
-            "Kj\u00e1rr Axe \"Decay\"",
-            "Kj\u00e1rr Axe \"King\"",
-            "Kj\u00e1rr Axe \"Bomber\"",
             "Kj\u00e1rr Axe \"Stream\"",
             "Kj\u00e1rr Axe \"Decay\"",
             "Kj\u00e1rr Axe \"King\"",
@@ -6479,11 +5997,8 @@
         "category": "Switch Axe"
     },
     {
-        "id": 432,
+        "id": 423,
         "aliases": [
-            "Kj\u00e1rr Axe \"Thunder\"",
-            "Kj\u00e1rr Axe \"Water\"",
-            "Kj\u00e1rr Axe \"Paralysis\"",
             "Kj\u00e1rr Axe \"Thunder\"",
             "Kj\u00e1rr Axe \"Water\"",
             "Kj\u00e1rr Axe \"Paralysis\""
@@ -6494,7 +6009,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 433,
+        "id": 424,
         "aliases": [
             "Teostra's Arx",
             "Teostra's Castle",
@@ -6506,7 +6021,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 434,
+        "id": 425,
         "aliases": [
             "Peal",
             "Peal+",
@@ -6519,7 +6034,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 435,
+        "id": 426,
         "aliases": [
             "Axe Semper Tyrannis"
         ],
@@ -6529,7 +6044,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 436,
+        "id": 427,
         "aliases": [
             "Dying Light"
         ],
@@ -6539,7 +6054,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 437,
+        "id": 428,
         "aliases": [
             "Flammenbeil",
             "Flammenbeil+",
@@ -6553,7 +6068,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 438,
+        "id": 429,
         "aliases": [
             "Frostreaver",
             "Legia Frostreaver",
@@ -6565,7 +6080,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 439,
+        "id": 430,
         "aliases": [
             "Axe of Thanatos",
             "Axe of Demons",
@@ -6578,7 +6093,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 440,
+        "id": 431,
         "aliases": [
             "Tyrannos",
             "Terror Tyrannos"
@@ -6589,7 +6104,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 441,
+        "id": 432,
         "aliases": [
             "Donnerbeil",
             "Donnerbeil+",
@@ -6601,7 +6116,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 442,
+        "id": 433,
         "aliases": [
             "Hoarcry Frostreaver",
             "Hector Glacia"
@@ -6612,7 +6127,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 443,
+        "id": 434,
         "aliases": [
             "Ruinous Light"
         ],
@@ -6622,7 +6137,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 444,
+        "id": 435,
         "aliases": [
             "Amber Slash",
             "Amber Slash+",
@@ -6634,7 +6149,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 445,
+        "id": 436,
         "aliases": [
             "Hidden Axe",
             "Hidden Axe+",
@@ -6646,7 +6161,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 446,
+        "id": 437,
         "aliases": [
             "Hydra Strobila",
             "Black Strobila"
@@ -6657,7 +6172,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 447,
+        "id": 438,
         "aliases": [
             "Evanescent Glow"
         ],
@@ -6667,7 +6182,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 448,
+        "id": 439,
         "aliases": [
             "Saligia Vileaxe"
         ],
@@ -6677,7 +6192,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 449,
+        "id": 440,
         "aliases": [
             "Dragonmaiden Axe",
             "Dragonmaiden Axe+"
@@ -6688,7 +6203,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 450,
+        "id": 441,
         "aliases": [
             "Golden Crescent"
         ],
@@ -6698,7 +6213,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 451,
+        "id": 442,
         "aliases": [
             "Undying Axe",
             "Undying Light"
@@ -6709,7 +6224,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 452,
+        "id": 443,
         "aliases": [
             "Demonlord Edge"
         ],
@@ -6719,7 +6234,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 453,
+        "id": 444,
         "aliases": [
             "Safi's Hellaxe",
             "Safi's Aquaaxe",
@@ -6737,7 +6252,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 454,
+        "id": 445,
         "aliases": [
             "Dark Switch Axe",
             "Black Harvest"
@@ -6748,7 +6263,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 455,
+        "id": 446,
         "aliases": [
             "Guild Palace Cleaver",
             "Royal Titan Axe"
@@ -6759,7 +6274,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 456,
+        "id": 447,
         "aliases": [
             "Moonstone Hoarfrost"
         ],
@@ -6769,7 +6284,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 457,
+        "id": 448,
         "aliases": [
             "Fatalis End",
             "True Fatalis End"
@@ -6780,25 +6295,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 458,
-        "aliases": [
-            "Safi's Hellaxe",
-            "Safi's Aquaaxe",
-            "Safi's Frostaxe",
-            "Safi's Boltaxe",
-            "Safi's Drakaxe",
-            "Safi's Venomaxe",
-            "Safi's Bindaxe",
-            "Safi's Dreamaxe",
-            "Safi's Shatteraxe"
-        ],
-        "obj_path": "wp/saxe/saxe026/saxe026.obj",
-        "mtl_path": "wp/saxe/saxe026/saxe026.mtl",
-        "tex_path": "wp/saxe/saxe026/saxe026_BML.PNG",
-        "category": "Switch Axe"
-    },
-    {
-        "id": 459,
+        "id": 449,
         "aliases": [
             "Lightbreak Axe"
         ],
@@ -6808,7 +6305,7 @@
         "category": "Switch Axe"
     },
     {
-        "id": 460,
+        "id": 450,
         "aliases": [
             "Matched Slicers I",
             "Matched Slicers II",
@@ -6837,7 +6334,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 461,
+        "id": 451,
         "aliases": [
             "Dual Destroyers I",
             "Dual Destroyers II",
@@ -6854,7 +6351,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 462,
+        "id": 452,
         "aliases": [
             "Freeze Chain I",
             "Freeze Chain II",
@@ -6873,7 +6370,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 463,
+        "id": 453,
         "aliases": [
             "Anja Cyclone I",
             "Anja Cyclone II",
@@ -6896,7 +6393,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 464,
+        "id": 454,
         "aliases": [
             "Bone Hatchets I",
             "Bone Hatchets II",
@@ -6934,7 +6431,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 465,
+        "id": 455,
         "aliases": [
             "Diablos Clubs I",
             "Diablos Clubs II",
@@ -6956,21 +6453,8 @@
         "category": "Dual Blades"
     },
     {
-        "id": 466,
+        "id": 456,
         "aliases": [
-            "Gold Water Twinblades",
-            "Gold Ice Twinblades",
-            "Gold Poison Twinblades",
-            "Thief Gold Twinblades",
-            "Mire Gold Twinblades",
-            "Spark Gold Twinblades",
-            "Rage Gold Twinblades",
-            "Lurk Gold Twinblades",
-            "Flash Gold Twinblades",
-            "Claw Gold Twinblades",
-            "Horn Gold Twinblades",
-            "Erupter Gold Twinblades",
-            "Magma Gold Twinblades",
             "Gold Water Twinblades",
             "Gold Ice Twinblades",
             "Gold Poison Twinblades",
@@ -6991,22 +6475,8 @@
         "category": "Dual Blades"
     },
     {
-        "id": 467,
+        "id": 457,
         "aliases": [
-            "Taroth Daggers \"Thief\"",
-            "Taroth Daggers \"Mire\"",
-            "Taroth Daggers \"Spark\"",
-            "Taroth Daggers \"Rage\"",
-            "Taroth Daggers \"Lurk\"",
-            "Taroth Daggers \"Flash\"",
-            "Taroth Daggers \"Claw\"",
-            "Taroth Daggers \"Horn\"",
-            "Taroth Daggers \"Erupter\"",
-            "Taroth Daggers \"Magma\"",
-            "Taroth Daggers \"Water\"",
-            "Taroth Daggers \"Ice\"",
-            "Taroth Daggers \"Poison\"",
-            "Taroth Daggers \"Fire\"",
             "Taroth Daggers \"Thief\"",
             "Taroth Daggers \"Mire\"",
             "Taroth Daggers \"Spark\"",
@@ -7028,7 +6498,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 468,
+        "id": 458,
         "aliases": [
             "Empress Daggers",
             "Empress Daggers \"Blaze\"",
@@ -7044,7 +6514,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 469,
+        "id": 459,
         "aliases": [
             "Chrome Cross I",
             "Chrome Cross II",
@@ -7060,7 +6530,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 470,
+        "id": 460,
         "aliases": [
             "Hulking Choppers I",
             "Hulking Choppers II",
@@ -7081,7 +6551,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 471,
+        "id": 461,
         "aliases": [
             "Icefeather",
             "Untouched Hel"
@@ -7092,12 +6562,8 @@
         "category": "Dual Blades"
     },
     {
-        "id": 472,
+        "id": 462,
         "aliases": [
-            "Kj\u00e1rr Daggers \"Spark\"",
-            "Kj\u00e1rr Daggers \"Rage\"",
-            "Kj\u00e1rr Daggers \"Magma\"",
-            "Kj\u00e1rr Daggers \"Lurk\"",
             "Kj\u00e1rr Daggers \"Spark\"",
             "Kj\u00e1rr Daggers \"Rage\"",
             "Kj\u00e1rr Daggers \"Magma\"",
@@ -7109,11 +6575,8 @@
         "category": "Dual Blades"
     },
     {
-        "id": 473,
+        "id": 463,
         "aliases": [
-            "Kj\u00e1rr Daggers \"Water\"",
-            "Kj\u00e1rr Daggers \"Ice\"",
-            "Kj\u00e1rr Daggers \"Dragon\"",
             "Kj\u00e1rr Daggers \"Water\"",
             "Kj\u00e1rr Daggers \"Ice\"",
             "Kj\u00e1rr Daggers \"Dragon\""
@@ -7124,7 +6587,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 474,
+        "id": 464,
         "aliases": [
             "Twin Nails",
             "Fire and Ice",
@@ -7136,7 +6599,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 475,
+        "id": 465,
         "aliases": [
             "Kirin Bolts",
             "Kirin Bolts+",
@@ -7149,7 +6612,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 476,
+        "id": 466,
         "aliases": [
             "Sworn Rapiers",
             "Sworn Rapiers+",
@@ -7161,7 +6624,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 477,
+        "id": 467,
         "aliases": [
             "Decimation Claws"
         ],
@@ -7171,7 +6634,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 478,
+        "id": 468,
         "aliases": [
             "Blood-drinker Chainblade",
             "Sin",
@@ -7184,7 +6647,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 479,
+        "id": 469,
         "aliases": [
             "Rookslayer Handaxes",
             "Bazelhawk Rookslayer"
@@ -7195,7 +6658,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 480,
+        "id": 470,
         "aliases": [
             "Enduring Schism",
             "Enduring Sacrifice",
@@ -7207,7 +6670,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 481,
+        "id": 471,
         "aliases": [
             "Wrath & Rancor",
             "Wrathful Predation"
@@ -7218,7 +6681,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 482,
+        "id": 472,
         "aliases": [
             "Nether Chainblades",
             "Death Row"
@@ -7229,7 +6692,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 483,
+        "id": 473,
         "aliases": [
             "Blazing Warhawks",
             "Bazel Bombers"
@@ -7240,7 +6703,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 484,
+        "id": 474,
         "aliases": [
             "Ruinous Decimation"
         ],
@@ -7250,7 +6713,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 485,
+        "id": 475,
         "aliases": [
             "Blizzarioths",
             "Blizzarioths+",
@@ -7262,7 +6725,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 486,
+        "id": 476,
         "aliases": [
             "Smoldering Cities",
             "Smoldering Cities+",
@@ -7274,7 +6737,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 487,
+        "id": 477,
         "aliases": [
             "Sulfurteinn Ortho",
             "The Stripping Shears"
@@ -7285,7 +6748,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 488,
+        "id": 478,
         "aliases": [
             "Boundless Farsight"
         ],
@@ -7295,7 +6758,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 489,
+        "id": 479,
         "aliases": [
             "Consummate Pair"
         ],
@@ -7305,7 +6768,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 490,
+        "id": 480,
         "aliases": [
             "Downy Crake Brooms",
             "Downy Crake Love",
@@ -7317,7 +6780,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 491,
+        "id": 481,
         "aliases": [
             "Usurper's Fulgur",
             "Usurper's Fulgur+",
@@ -7329,7 +6792,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 492,
+        "id": 482,
         "aliases": [
             "Drakespirit Hellclaws",
             "Stygian Bloodclaws"
@@ -7340,7 +6803,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 493,
+        "id": 483,
         "aliases": [
             "Raven Tessen",
             "Wolf Tessen"
@@ -7351,7 +6814,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 494,
+        "id": 484,
         "aliases": [
             "Twin Flames",
             "Wyvern Lovers"
@@ -7362,7 +6825,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 495,
+        "id": 485,
         "aliases": [
             "Wyvern Strife"
         ],
@@ -7372,7 +6835,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 496,
+        "id": 486,
         "aliases": [
             "Suzuka Takamaru",
             "Suzuka Otakemaru"
@@ -7383,7 +6846,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 497,
+        "id": 487,
         "aliases": [
             "Demonlord Hellfists"
         ],
@@ -7393,7 +6856,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 498,
+        "id": 488,
         "aliases": [
             "Safi's Hellclaws",
             "Safi's Aquaclaws",
@@ -7411,7 +6874,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 499,
+        "id": 489,
         "aliases": [
             "Alatreon Dual Blades",
             "Alatreon Madness"
@@ -7422,7 +6885,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 500,
+        "id": 490,
         "aliases": [
             "Guild Knight Sabers",
             "Master Sabers",
@@ -7434,7 +6897,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 501,
+        "id": 491,
         "aliases": [
             "Whetfish Sabers",
             "Whetfish Sabers+"
@@ -7445,7 +6908,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 502,
+        "id": 492,
         "aliases": [
             "Zireael",
             "Zireael+"
@@ -7456,7 +6919,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 503,
+        "id": 493,
         "aliases": [
             "Guild Palace Sabers",
             "Royal Savior Daggers"
@@ -7467,7 +6930,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 504,
+        "id": 494,
         "aliases": [
             "Bergel Vetra"
         ],
@@ -7477,7 +6940,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 505,
+        "id": 495,
         "aliases": [
             "Fatalis Dual Blades",
             "Fatalis Dual Skies"
@@ -7488,7 +6951,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 506,
+        "id": 496,
         "aliases": [
             "Strong Ale",
             "Master Ale"
@@ -7499,25 +6962,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 507,
-        "aliases": [
-            "Safi's Hellclaws",
-            "Safi's Aquaclaws",
-            "Safi's Frostclaws",
-            "Safi's Boltclaws",
-            "Safi's Drakclaws",
-            "Safi's Venomclaws",
-            "Safi's Bindclaws",
-            "Safi's Dreamclaws",
-            "Safi's Shatterclaws"
-        ],
-        "obj_path": "wp/sou/sou034/sou034.obj",
-        "mtl_path": "wp/sou/sou034/sou034.mtl",
-        "tex_path": "wp/sou/sou034/sou034_BML.PNG",
-        "category": "Dual Blades"
-    },
-    {
-        "id": 508,
+        "id": 497,
         "aliases": [
             "Lightbreak Twins"
         ],
@@ -7527,7 +6972,7 @@
         "category": "Dual Blades"
     },
     {
-        "id": 509,
+        "id": 498,
         "aliases": [
             "Iron Katana I",
             "Iron Katana II",
@@ -7554,7 +6999,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 510,
+        "id": 499,
         "aliases": [
             "Last Dance I",
             "Last Dance II",
@@ -7570,7 +7015,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 511,
+        "id": 500,
         "aliases": [
             "Nergal Reaver",
             "Dazzling Flash I",
@@ -7594,7 +7039,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 512,
+        "id": 501,
         "aliases": [
             "Bone Shotel I",
             "Bone Shotel II",
@@ -7626,7 +7071,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 513,
+        "id": 502,
         "aliases": [
             "Anja Scimitar I",
             "Anja Scimitar II",
@@ -7649,7 +7094,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 514,
+        "id": 503,
         "aliases": [
             "Bone Reaper I",
             "Bone Reaper II",
@@ -7674,21 +7119,8 @@
         "category": "Long Sword"
     },
     {
-        "id": 515,
+        "id": 504,
         "aliases": [
-            "Gold Water Katana",
-            "Gold Poison Katana",
-            "Gold Paralysis Katana",
-            "Thief Gold Katana",
-            "Mire Gold Katana",
-            "Spark Gold Katana",
-            "Rage Gold Katana",
-            "Lurk Gold Katana",
-            "Flash Gold Katana",
-            "Stream Gold Katana",
-            "Decay Gold Katana",
-            "Gyre Gold Katana",
-            "Magma Gold Katana",
             "Gold Water Katana",
             "Gold Poison Katana",
             "Gold Paralysis Katana",
@@ -7709,22 +7141,8 @@
         "category": "Long Sword"
     },
     {
-        "id": 516,
+        "id": 505,
         "aliases": [
-            "Taroth Sword \"Thief\"",
-            "Taroth Sword \"Mire\"",
-            "Taroth Sword \"Spark\"",
-            "Taroth Sword \"Rage\"",
-            "Taroth Sword \"Lurk\"",
-            "Taroth Sword \"Flash\"",
-            "Taroth Sword \"Stream\"",
-            "Taroth Sword \"Decay\"",
-            "Taroth Sword \"Gyre\"",
-            "Taroth Sword \"Magma\"",
-            "Taroth Sword \"Water\"",
-            "Taroth Sword \"Poison\"",
-            "Taroth Sword \"Paralysis\"",
-            "Taroth Sword \"Fire\"",
             "Taroth Sword \"Thief\"",
             "Taroth Sword \"Mire\"",
             "Taroth Sword \"Spark\"",
@@ -7746,7 +7164,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 517,
+        "id": 506,
         "aliases": [
             "Empress Sword",
             "Empress Sword \"Blaze\"",
@@ -7762,7 +7180,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 518,
+        "id": 507,
         "aliases": [
             "Rafiq al-Nasr I",
             "Rafiq al-Nasr II",
@@ -7775,7 +7193,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 519,
+        "id": 508,
         "aliases": [
             "Grand Khopesh I",
             "Grand Khopesh II",
@@ -7795,7 +7213,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 520,
+        "id": 509,
         "aliases": [
             "Icebrink",
             "Reverent Elusarca"
@@ -7806,12 +7224,8 @@
         "category": "Long Sword"
     },
     {
-        "id": 521,
+        "id": 510,
         "aliases": [
-            "Kj\u00e1rr Sword \"Spark\"",
-            "Kj\u00e1rr Sword \"Stream\"",
-            "Kj\u00e1rr Sword \"Decay\"",
-            "Kj\u00e1rr Sword \"Magma\"",
             "Kj\u00e1rr Sword \"Spark\"",
             "Kj\u00e1rr Sword \"Stream\"",
             "Kj\u00e1rr Sword \"Decay\"",
@@ -7823,11 +7237,8 @@
         "category": "Long Sword"
     },
     {
-        "id": 522,
+        "id": 511,
         "aliases": [
-            "Kj\u00e1rr Sword \"Water\"",
-            "Kj\u00e1rr Sword \"Fire\"",
-            "Kj\u00e1rr Sword \"Paralysis\"",
             "Kj\u00e1rr Sword \"Water\"",
             "Kj\u00e1rr Sword \"Fire\"",
             "Kj\u00e1rr Sword \"Paralysis\""
@@ -7838,7 +7249,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 523,
+        "id": 512,
         "aliases": [
             "Supremacy Blade",
             "Divine Slasher",
@@ -7850,7 +7261,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 524,
+        "id": 513,
         "aliases": [
             "Imperial Saber",
             "Imperial Shimmer",
@@ -7862,7 +7273,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 525,
+        "id": 514,
         "aliases": [
             "Wyvern Blade \"Fall\"",
             "Wyvern Blade \"Blood\""
@@ -7873,7 +7284,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 526,
+        "id": 515,
         "aliases": [
             "Extermination's Edge"
         ],
@@ -7883,7 +7294,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 527,
+        "id": 516,
         "aliases": [
             "Stealer",
             "Legia Stealer",
@@ -7895,7 +7306,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 528,
+        "id": 517,
         "aliases": [
             "Rookslayer Long Sword",
             "Bazel Varga Rookslayer"
@@ -7906,7 +7317,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 529,
+        "id": 518,
         "aliases": [
             "Wyvern Blade \"Leaf\"",
             "Wyvern Blade \"Verde\"",
@@ -7918,7 +7329,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 530,
+        "id": 519,
         "aliases": [
             "Wyvern Blade \"Azure\"",
             "Wyvern Blade \"Indigo\"",
@@ -7931,7 +7342,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 531,
+        "id": 520,
         "aliases": [
             "Reaver \"Cruelty\"",
             "Reaver \"Calamity\""
@@ -7942,7 +7353,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 532,
+        "id": 521,
         "aliases": [
             "Azure Star Blade",
             "Azure Star \"Dragon Dance\"",
@@ -7954,7 +7365,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 533,
+        "id": 522,
         "aliases": [
             "Hoarcry Stealer",
             "Apsara Glacia"
@@ -7965,7 +7376,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 534,
+        "id": 523,
         "aliases": [
             "Rooksearer Long Sword",
             "Bazel Prozio Rooksearer"
@@ -7976,7 +7387,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 535,
+        "id": 524,
         "aliases": [
             "Ruinous Extermination"
         ],
@@ -7986,7 +7397,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 536,
+        "id": 525,
         "aliases": [
             "Tigrine Edge",
             "Tigrine Edge+",
@@ -7998,7 +7409,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 537,
+        "id": 526,
         "aliases": [
             "Hidden Saber",
             "Hidden Saber+",
@@ -8010,7 +7421,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 538,
+        "id": 527,
         "aliases": [
             "Hydra Tornaria",
             "Black Tornaria"
@@ -8021,7 +7432,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 539,
+        "id": 528,
         "aliases": [
             "Radiant Flow"
         ],
@@ -8031,7 +7442,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 540,
+        "id": 529,
         "aliases": [
             "Consummate Katana"
         ],
@@ -8041,7 +7452,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 541,
+        "id": 530,
         "aliases": [
             "Usurper's Boltslicer",
             "Usurper Boltslicer+",
@@ -8053,7 +7464,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 542,
+        "id": 531,
         "aliases": [
             "Brimstren Drakebone",
             "Stygian Gula"
@@ -8064,7 +7475,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 543,
+        "id": 532,
         "aliases": [
             "Daito Crow",
             "Daito Wolf"
@@ -8075,7 +7486,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 544,
+        "id": 533,
         "aliases": [
             "Wyvern Blade \"Luna\""
         ],
@@ -8085,7 +7496,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 545,
+        "id": 534,
         "aliases": [
             "Wyvern Blade \"Pale\""
         ],
@@ -8095,7 +7506,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 546,
+        "id": 535,
         "aliases": [
             "Demon Halberd",
             "Great Demon Halberd"
@@ -8106,7 +7517,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 547,
+        "id": 536,
         "aliases": [
             "Demonlord Halberd"
         ],
@@ -8116,7 +7527,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 548,
+        "id": 537,
         "aliases": [
             "Safi's Hellblade",
             "Safi's Aquablade",
@@ -8134,7 +7545,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 549,
+        "id": 538,
         "aliases": [
             "Dark Claw",
             "Dark Claw \"Demise\""
@@ -8145,7 +7556,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 550,
+        "id": 539,
         "aliases": [
             "Wyvern Blade \"Blossom\"",
             "Wyvern Blade \"Blossom\"+"
@@ -8156,7 +7567,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 551,
+        "id": 540,
         "aliases": [
             "Lightbreak Edge"
         ],
@@ -8166,7 +7577,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 552,
+        "id": 541,
         "aliases": [
             "Mad Scavenger Pickaxe",
             "Demon Scavenger Pickaxe"
@@ -8177,7 +7588,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 553,
+        "id": 542,
         "aliases": [
             "Guild Palace Rapier",
             "Royal Captain Rapier"
@@ -8188,7 +7599,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 554,
+        "id": 543,
         "aliases": [
             "Tigerfang",
             "Ravenbite"
@@ -8199,7 +7610,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 555,
+        "id": 544,
         "aliases": [
             "Adularia Edge"
         ],
@@ -8209,7 +7620,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 556,
+        "id": 545,
         "aliases": [
             "Fatalis Sickle",
             "Fatalis Zaggespanon"
@@ -8220,25 +7631,7 @@
         "category": "Long Sword"
     },
     {
-        "id": 557,
-        "aliases": [
-            "Safi's Hellblade",
-            "Safi's Aquablade",
-            "Safi's Frostblade",
-            "Safi's Boltblade",
-            "Safi's Drakblade",
-            "Safi's Venomblade",
-            "Safi's Bindblade",
-            "Safi's Dreamblade",
-            "Safi's Shatterblade"
-        ],
-        "obj_path": "wp/swo/swo035/swo035.obj",
-        "mtl_path": "wp/swo/swo035/swo035.mtl",
-        "tex_path": "wp/swo/swo035/swo035_BML.PNG",
-        "category": "Long Sword"
-    },
-    {
-        "id": 558,
+        "id": 546,
         "aliases": [
             "Frost Blaze I",
             "Frost Blaze II",
@@ -8267,7 +7660,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 559,
+        "id": 547,
         "aliases": [
             "Buster Sword I",
             "Buster Sword II",
@@ -8306,7 +7699,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 560,
+        "id": 548,
         "aliases": [
             "Nergal Judicator",
             "Lightning Punisher I",
@@ -8331,7 +7724,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 561,
+        "id": 549,
         "aliases": [
             "Water Golem I",
             "Water Golem II",
@@ -8353,7 +7746,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 562,
+        "id": 550,
         "aliases": [
             "Bone Blade I",
             "Bone Blade II",
@@ -8383,7 +7776,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 563,
+        "id": 551,
         "aliases": [
             "Giant Jawblade I",
             "Giant Jawblade II",
@@ -8400,20 +7793,8 @@
         "category": "Great Sword"
     },
     {
-        "id": 564,
+        "id": 552,
         "aliases": [
-            "Gold Water Fellsword",
-            "Gold Ice Fellsword",
-            "Gold Sleep Fellsword",
-            "Glutton Gold Fellsword",
-            "Spew Gold Fellsword",
-            "Mud Gold Fellsword",
-            "Numb Gold Fellsword",
-            "Tar Gold Fellsword",
-            "Decay Gold Fellsword",
-            "King Gold Fellsword",
-            "Erupter Gold Fellsword",
-            "Magma Gold Fellsword",
             "Gold Water Fellsword",
             "Gold Ice Fellsword",
             "Gold Sleep Fellsword",
@@ -8433,21 +7814,8 @@
         "category": "Great Sword"
     },
     {
-        "id": 565,
+        "id": 553,
         "aliases": [
-            "Taroth Blaze \"Glutton\"",
-            "Taroth Blaze \"Spew\"",
-            "Taroth Blaze \"Mud\"",
-            "Taroth Blaze \"Numb\"",
-            "Taroth Blaze \"Tar\"",
-            "Taroth Blaze \"Decay\"",
-            "Taroth Blaze \"King\"",
-            "Taroth Blaze \"Erupter\"",
-            "Taroth Blaze \"Magma\"",
-            "Taroth Blaze \"Water\"",
-            "Taroth Blaze \"Ice\"",
-            "Taroth Blaze \"Sleep\"",
-            "Taroth Blaze \"Thunder\"",
             "Taroth Blaze \"Glutton\"",
             "Taroth Blaze \"Spew\"",
             "Taroth Blaze \"Mud\"",
@@ -8468,7 +7836,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 566,
+        "id": 554,
         "aliases": [
             "Empress Galea",
             "Empress Galea \"Blaze\"",
@@ -8484,7 +7852,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 567,
+        "id": 555,
         "aliases": [
             "Chrome Deathscythe I",
             "Chrome Deathscythe II",
@@ -8500,7 +7868,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 568,
+        "id": 556,
         "aliases": [
             "Ogre's Jaw I",
             "Ogre's Jaw II",
@@ -8515,7 +7883,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 569,
+        "id": 557,
         "aliases": [
             "Icewing",
             "Winged Seraphyd"
@@ -8526,12 +7894,8 @@
         "category": "Great Sword"
     },
     {
-        "id": 570,
+        "id": 558,
         "aliases": [
-            "Kj\u00e1rr Fellsword \"Numb\"",
-            "Kj\u00e1rr Fellsword \"Decay\"",
-            "Kj\u00e1rr Fellsword \"King\"",
-            "Kj\u00e1rr Fellsword \"Magma\"",
             "Kj\u00e1rr Fellsword \"Numb\"",
             "Kj\u00e1rr Fellsword \"Decay\"",
             "Kj\u00e1rr Fellsword \"King\"",
@@ -8543,11 +7907,8 @@
         "category": "Great Sword"
     },
     {
-        "id": 571,
+        "id": 559,
         "aliases": [
-            "Kj\u00e1rr Fellsword \"Water\"",
-            "Kj\u00e1rr Fellsword \"Ice\"",
-            "Kj\u00e1rr Fellsword \"Thunder\"",
             "Kj\u00e1rr Fellsword \"Water\"",
             "Kj\u00e1rr Fellsword \"Ice\"",
             "Kj\u00e1rr Fellsword \"Thunder\""
@@ -8558,7 +7919,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 572,
+        "id": 560,
         "aliases": [
             "Icesteel Edge",
             "Daora's Decimator",
@@ -8570,7 +7931,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 573,
+        "id": 561,
         "aliases": [
             "Thundersword",
             "Kirin Thundersword",
@@ -8583,7 +7944,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 574,
+        "id": 562,
         "aliases": [
             "Red Wing"
         ],
@@ -8593,7 +7954,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 575,
+        "id": 563,
         "aliases": [
             "Purgation's Atrocity"
         ],
@@ -8603,7 +7964,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 576,
+        "id": 564,
         "aliases": [
             "Flammenzahn",
             "Flammenzahn+",
@@ -8617,7 +7978,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 577,
+        "id": 565,
         "aliases": [
             "Leviathan's Fury"
         ],
@@ -8627,7 +7988,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 578,
+        "id": 566,
         "aliases": [
             "Wyvern Jawblade",
             "Great Wyvern Jawblade",
@@ -8639,7 +8000,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 579,
+        "id": 567,
         "aliases": [
             "Blue Wing",
             "Rathalos Glinsword",
@@ -8652,7 +8013,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 580,
+        "id": 568,
         "aliases": [
             "Berserker Sword",
             "Anguish"
@@ -8663,7 +8024,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 581,
+        "id": 569,
         "aliases": [
             "Wyvern Ignition \"Steel\"",
             "Wyvern Ignition \"Impact\"",
@@ -8675,7 +8036,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 582,
+        "id": 570,
         "aliases": [
             "Icicle Fang",
             "Icicle Fang+",
@@ -8687,7 +8048,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 583,
+        "id": 571,
         "aliases": [
             "Donnerzahn",
             "Donnerzahn+",
@@ -8699,7 +8060,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 584,
+        "id": 572,
         "aliases": [
             "Monstrous Madness",
             "Don Monstro"
@@ -8710,7 +8071,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 585,
+        "id": 573,
         "aliases": [
             "Ruinous Atrocity"
         ],
@@ -8720,7 +8081,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 586,
+        "id": 574,
         "aliases": [
             "Tiger Jawblade",
             "Tiger Jawblade+",
@@ -8732,7 +8093,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 587,
+        "id": 575,
         "aliases": [
             "Dios Blade",
             "Brach Attack"
@@ -8743,7 +8104,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 588,
+        "id": 576,
         "aliases": [
             "Immovable Dharma"
         ],
@@ -8753,7 +8114,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 589,
+        "id": 577,
         "aliases": [
             "Consummate Blade"
         ],
@@ -8763,7 +8124,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 590,
+        "id": 578,
         "aliases": [
             "Rathalos Gleamsword"
         ],
@@ -8773,7 +8134,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 591,
+        "id": 579,
         "aliases": [
             "Demon Rod",
             "Great Demon Rod"
@@ -8784,7 +8145,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 592,
+        "id": 580,
         "aliases": [
             "Demonlord Goldrod"
         ],
@@ -8794,7 +8155,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 593,
+        "id": 581,
         "aliases": [
             "Lightbreak Blade"
         ],
@@ -8804,7 +8165,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 594,
+        "id": 582,
         "aliases": [
             "Safi's Hellsplitter",
             "Safi's Aquasplitter",
@@ -8822,7 +8183,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 595,
+        "id": 583,
         "aliases": [
             "Alatreon Great Sword",
             "Alatreon Revolution"
@@ -8833,7 +8194,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 596,
+        "id": 584,
         "aliases": [
             "Frozen Speartuna",
             "Freezer Speartuna",
@@ -8845,7 +8206,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 597,
+        "id": 585,
         "aliases": [
             "Guild Palace Blade",
             "Royal Venus Blade"
@@ -8856,7 +8217,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 598,
+        "id": 586,
         "aliases": [
             "Accursed Blade",
             "Wildbite"
@@ -8867,7 +8228,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 599,
+        "id": 587,
         "aliases": [
             "Glacial Demon"
         ],
@@ -8877,7 +8238,7 @@
         "category": "Great Sword"
     },
     {
-        "id": 600,
+        "id": 588,
         "aliases": [
             "Fatalis Blade",
             "Black Fatalis Blade"
@@ -8885,24 +8246,6 @@
         "obj_path": "wp/two/two029/two029.obj",
         "mtl_path": "wp/two/two029/two029.mtl",
         "tex_path": "wp/two/two029/two029_BML.PNG",
-        "category": "Great Sword"
-    },
-    {
-        "id": 601,
-        "aliases": [
-            "Safi's Hellsplitter",
-            "Safi's Aquasplitter",
-            "Safi's Frostsplitter",
-            "Safi's Boltsplitter",
-            "Safi's Draksplitter",
-            "Safi's Venomsplitter",
-            "Safi's Bindsplitter",
-            "Safi's Dreamsplitter",
-            "Safi's Shattersplitter"
-        ],
-        "obj_path": "wp/two/two030/two030.obj",
-        "mtl_path": "wp/two/two030/two030.mtl",
-        "tex_path": "wp/two/two030/two030_BML.PNG",
         "category": "Great Sword"
     }
 ]
