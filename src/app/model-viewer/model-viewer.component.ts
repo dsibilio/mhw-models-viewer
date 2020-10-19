@@ -91,8 +91,12 @@ export class ModelViewerComponent {
   }
 
   onFilterSubmit() {
+    this.selectModelOnFilter(this.filterFormControl.value);
+  }
+
+  selectModelOnFilter(alias: string) {
     this.filterSubmitted = true;
-    this.selectModelByAlias(this.filterFormControl.value);
+    this.selectModelByAlias(alias);
     this.treeControl.expandAll();
   }
 

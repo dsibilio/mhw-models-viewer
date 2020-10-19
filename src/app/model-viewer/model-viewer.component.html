@@ -40,7 +40,7 @@
       <input type="text" placeholder="Find a model..." aria-label="Find a model" matInput
         [formControl]="filterFormControl" [matAutocomplete]="auto" (blur)="resetFilterForm()">
       <mat-autocomplete #filterAutocomplete autoActiveFirstOption #auto="matAutocomplete">
-        <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+        <mat-option *ngFor="let option of filteredOptions | async" [value]="option" (onSelectionChange)=selectModelOnFilter(option)>
           {{option}}
         </mat-option>
       </mat-autocomplete>
