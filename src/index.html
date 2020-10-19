@@ -13,7 +13,24 @@
 	<script type="text/javascript" src="assets/js/jsmodeler.ext.three.js"></script>
 	<script type="text/javascript" src="assets/js/online3dembedder.js"></script>
   <script type="text/javascript">
-    window.addEventListener('load', LoadOnline3DModels, true)
+		function OnResize()
+		{
+      var canvas = document.getElementById('3dcanvas');
+      if(canvas != undefined) {
+        canvas.width = document.body.clientWidth * 0.7;
+        canvas.height = document.body.clientHeight * 0.7;
+      }
+		}
+		
+		function OnLoad()
+		{
+			OnResize();
+			LoadOnline3DModels();
+		}
+	
+		window.addEventListener('load', OnLoad, true);
+    window.addEventListener('resize', OnResize, true);
+    window.addEventListener('reloadCanvas', OnLoad, true);
   </script>
 </head>
 <body class="mat-typography">

@@ -17,8 +17,7 @@
       {{node.name}}
     </mat-tree-node>
 
-    <mat-tree-node *matTreeNodeDef="let node; when: hasChild" matTreeNodePadding
-      class="list-item">
+    <mat-tree-node *matTreeNodeDef="let node; when: hasChild" matTreeNodePadding class="list-item">
       <button mat-icon-button matTreeNodeToggle [attr.aria-label]="'Toggle ' + node.name">
         <mat-icon class="mat-icon-rtl-mirror">
           {{treeControl.isExpanded(node) ? 'expand_more' : 'chevron_right'}}
@@ -40,7 +39,8 @@
       <input type="text" placeholder="Find a model..." aria-label="Find a model" matInput
         [formControl]="filterFormControl" [matAutocomplete]="auto" (blur)="resetFilterForm()">
       <mat-autocomplete #filterAutocomplete autoActiveFirstOption #auto="matAutocomplete">
-        <mat-option *ngFor="let option of filteredOptions | async" [value]="option" (onSelectionChange)=selectModelOnFilter(option)>
+        <mat-option *ngFor="let option of filteredOptions | async" [value]="option"
+          (onSelectionChange)=selectModelOnFilter(option)>
           {{option}}
         </mat-option>
       </mat-autocomplete>
@@ -49,14 +49,16 @@
       </div>
     </mat-form-field>
   </form>
-  <canvas class="3dviewer"
-    sourcefiles="assets/wp/bow/bow001/bow001.obj|assets/wp/bow/bow001/bow001.mtl|assets/wp/bow/bow001/bow001_BML.PNG"
-    width="700%" height="700%"></canvas>
+
+  <canvas id="3dcanvas" class="3dviewer"
+    [hidden]="!selectedModel"
+    [attr.sourcefiles]="selectedModel != undefined ? 'assets/' + selectedModel.obj_path + '|assets/' + selectedModel.mtl_path + '|assets/' + selectedModel.tex_path : 'assets/wp/bow/bow001/bow001.obj|assets/wp/bow/bow001/bow001.mtl|assets/wp/bow/bow001/bow001_BML.PNG'">
+  </canvas>
 </div>
 
 <div #modelListContainer id="model-list-container">
   <div *ngFor="let alias of aliasesByCategory">
-    <p class="compact-list-item" (click)="selectModelByAlias(alias); modelListContainer.scrollTop = 0"
+    <p class="compact-list-item" (click)="selectModelByAlias(alias)"
       [ngClass]="{'selected-list-item bigger-item': alias === selectedAlias}">
       {{ alias }}
     </p>

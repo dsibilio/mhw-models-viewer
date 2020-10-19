@@ -128,6 +128,7 @@ export class ModelViewerComponent {
     this.selectedModel = this.modelsDataService.getModelByAlias(alias);
     this.selectCategory(this.selectedModel.category);
     this.shiftSelectedElementToTop(alias);
+    setTimeout(function()  { window.dispatchEvent(new Event("reloadCanvas")) }, 0);
   }
 
   /** Transform the data to something the tree can read. */
