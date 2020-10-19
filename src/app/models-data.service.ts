@@ -32,10 +32,12 @@ export class ModelsDataService {
   }
 
   getMatchingAliases(aliasFilter: string): string[] {
-    aliasFilter = aliasFilter.toLowerCase()
+    if(aliasFilter != undefined) {
+      aliasFilter = aliasFilter.toLowerCase()
 
-    if(aliasFilter.length > 2)
-      return this.aliases.filter(alias => alias.toLowerCase().indexOf(aliasFilter) != -1)
+      if(aliasFilter.length > 2)
+        return this.aliases.filter(alias => alias.toLowerCase().indexOf(aliasFilter) != -1)
+    }
 
     return []
   }

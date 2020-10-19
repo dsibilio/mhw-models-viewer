@@ -4,9 +4,9 @@ import { FlatTreeControl } from '@angular/cdk/tree';
 import { categories } from './categories';
 import { ModelsDataService } from '../models-data.service';
 
-import {Observable} from 'rxjs';
-import {map, startWith} from 'rxjs/operators';
-import {FormControl} from '@angular/forms';
+import { Observable } from 'rxjs';
+import { map, startWith } from 'rxjs/operators';
+import { FormControl } from '@angular/forms';
 
 /** File node data with possible child nodes. */
 export interface FileNode {
@@ -43,10 +43,13 @@ export class ModelViewerComponent {
   /** The MatTreeFlatDataSource connects the control and flattener to provide data. */
   dataSource: MatTreeFlatDataSource<FileNode, FlatTreeNode>;
 
+  selectedAlias: string;
   selectedCategory: string;
+  selectedModel;
 
   filterFormControl = new FormControl();
   filteredOptions: Observable<any>;
+  filterSubmitted: boolean;
 
   constructor(
     private modelsDataService: ModelsDataService
@@ -63,6 +66,15 @@ export class ModelViewerComponent {
   }
 
   ngOnInit() {
+    this.filterFormControl.setValidators(
+      control => {
+        if (this.modelsDataService.getModelByAlias(control.value) != undefined)
+          return null;
+
+        return { 'filterFormControl': 'Selected model does not exist' };
+      }
+    );
+
     this.filteredOptions = this.filterFormControl.valueChanges.pipe(
       startWith(''),
       map(value => this._filter(value))
@@ -70,15 +82,35 @@ export class ModelViewerComponent {
   }
 
   private _filter(value: string): string[] {
-    return this.modelsDataService.getMatchingAliases(value)
+    return this.modelsDataService.getMatchingAliases(value);
   }
 
   selectCategory(category: string) {
-    this.selectedCategory = category
+    this.selectedCategory = category;
+  }
+
+  onFilterSubmit() {
+    this.filterSubmitted = true;
+    this.selectModelByAlias(this.filterFormControl.value);
+    this.treeControl.expandAll();
+  }
+
+  resetFilterForm() {
+    if(this.filterFormControl.errors) {
+      this.filterSubmitted = false;
+      this.filterFormControl.reset();
+      this.filterFormControl.setErrors(null);
+    }
+  }
+
+  selectModelByAlias(alias: string) {
+    this.selectedAlias = alias;
+    this.selectedModel = this.modelsDataService.getModelByAlias(alias);
+    this.selectedCategory = this.selectedModel.category;
   }
 
   getAliasesByCategory(category: string): string[] {
-    return this.modelsDataService.getAliasesByCategory(category).sort()
+    return this.modelsDataService.getAliasesByCategory(category).sort();
   }
 
   /** Transform the data to something the tree can read. */

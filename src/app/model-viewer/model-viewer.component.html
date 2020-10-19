@@ -1,8 +1,7 @@
 <div id="category-tree-container">
   <mat-tree [dataSource]="dataSource" [treeControl]="treeControl">
     <mat-tree-node *matTreeNodeDef="let node" matTreeNodeToggle matTreeNodePadding [matTreeNodePaddingIndent]="10"
-      (click)=selectCategory(node.name)
-      class="list-item"
+      (click)=selectCategory(node.name) class="list-item"
       [ngClass]="{ 'selected-list-item' : node.name === selectedCategory }">
       <button mat-icon-button disabled></button>
 
@@ -18,7 +17,7 @@
       {{node.name}}
     </mat-tree-node>
 
-    <mat-tree-node *matTreeNodeDef="let node; when: hasChild" matTreeNodePadding [matTreeNodePaddingIndent]="10"
+    <mat-tree-node *matTreeNodeDef="let node; when: hasChild" matTreeNodePadding
       class="list-item">
       <button mat-icon-button matTreeNodeToggle [attr.aria-label]="'Toggle ' + node.name">
         <mat-icon class="mat-icon-rtl-mirror">
@@ -36,26 +35,30 @@
 </div>
 
 <div id="model-viewer-container">
-  <form class="filter-form">
+  <form class="filter-form" (ngSubmit)=onFilterSubmit()>
     <mat-form-field class="filter-input">
-      <input type="text"
-             placeholder="Find a model..."
-             aria-label="Find a model"
-             matInput
-             [formControl]="filterFormControl"
-             [matAutocomplete]="auto">
+      <input type="text" placeholder="Find a model..." aria-label="Find a model" matInput
+        [formControl]="filterFormControl" [matAutocomplete]="auto" (blur)="resetFilterForm()">
       <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
         <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
           {{option}}
         </mat-option>
       </mat-autocomplete>
+      <div *ngIf="filterSubmitted && filterFormControl.errors" class="invalid-feedback">
+        {{ filterFormControl.errors['filterFormControl'] }}
+      </div>
     </mat-form-field>
   </form>
-  <canvas class="3dviewer" sourcefiles="assets/wp/bow/bow001/bow001.obj|assets/wp/bow/bow001/bow001.mtl|assets/wp/bow/bow001/bow001_BML.PNG" width="700%" height="700%"></canvas>
+  <canvas class="3dviewer"
+    sourcefiles="assets/wp/bow/bow001/bow001.obj|assets/wp/bow/bow001/bow001.mtl|assets/wp/bow/bow001/bow001_BML.PNG"
+    width="700%" height="700%"></canvas>
 </div>
 
 <div id="model-list-container">
   <div *ngFor="let alias of getAliasesByCategory(selectedCategory)">
-      <p class="compact-list-item">{{ alias }}</p>
+    <p class="compact-list-item" (click)=selectModelByAlias(alias)
+      [ngClass]="{'selected-list-item': alias === selectedAlias}">
+      {{ alias }}
+    </p>
   </div>
 </div>

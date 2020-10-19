@@ -33,3 +33,9 @@
 .filter-input {
   width: 100%;
 }
+
+canvas {
+  border-style: solid;
+  border-width: 1px;
+  border-color: darkgray;
+}
