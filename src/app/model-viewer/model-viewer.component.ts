@@ -1,4 +1,4 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, ViewChild } from '@angular/core';
 import { MatTreeFlatDataSource, MatTreeFlattener } from '@angular/material/tree';
 import { FlatTreeControl } from '@angular/cdk/tree';
 import { categories } from './categories';
@@ -7,6 +7,7 @@ import { ModelsDataService } from '../models-data.service';
 import { Observable } from 'rxjs';
 import { map, startWith } from 'rxjs/operators';
 import { FormControl } from '@angular/forms';
+import { MatAutocomplete } from '@angular/material/autocomplete';
 
 /** File node data with possible child nodes. */
 export interface FileNode {
@@ -36,10 +37,8 @@ export class ModelViewerComponent {
 
   /** The TreeControl controls the expand/collapse state of tree nodes.  */
   treeControl: FlatTreeControl<FlatTreeNode>;
-
   /** The TreeFlattener is used to generate the flat list of items from hierarchical data. */
   treeFlattener: MatTreeFlattener<FileNode, FlatTreeNode>;
-
   /** The MatTreeFlatDataSource connects the control and flattener to provide data. */
   dataSource: MatTreeFlatDataSource<FileNode, FlatTreeNode>;
 
@@ -50,6 +49,8 @@ export class ModelViewerComponent {
   filterFormControl = new FormControl();
   filteredOptions: Observable<any>;
   filterSubmitted: boolean;
+
+  @ViewChild('filterAutocomplete', {static: true}) autocomplete: MatAutocomplete;
 
   constructor(
     private modelsDataService: ModelsDataService
@@ -96,7 +97,7 @@ export class ModelViewerComponent {
   }
 
   resetFilterForm() {
-    if(this.filterFormControl.errors) {
+    if(this.filterFormControl.errors && !this.autocomplete.isOpen) {
       this.filterSubmitted = false;
       this.filterFormControl.reset();
       this.filterFormControl.setErrors(null);
