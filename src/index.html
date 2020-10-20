@@ -1,6 +1,17 @@
 <!doctype html>
 <html lang="en">
+
 <head>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MFBNH9F');</script>
+  <!-- End Google Tag Manager -->
   <meta charset="utf-8">
   <title>MHW 3D Viewer Online</title>
   <base href="/">
@@ -8,32 +19,36 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<script type="text/javascript" src="assets/js/three.min.js"></script>
-	<script type="text/javascript" src="assets/js/jsmodeler.js"></script>
-	<script type="text/javascript" src="assets/js/jsmodeler.ext.three.js"></script>
-	<script type="text/javascript" src="assets/js/online3dembedder.js"></script>
+  <script type="text/javascript" src="assets/js/three.min.js"></script>
+  <script type="text/javascript" src="assets/js/jsmodeler.js"></script>
+  <script type="text/javascript" src="assets/js/jsmodeler.ext.three.js"></script>
+  <script type="text/javascript" src="assets/js/online3dembedder.js"></script>
   <script type="text/javascript">
-		function OnResize()
-		{
+    function OnResize() {
       var canvas = document.getElementById('3dcanvas');
-      if(canvas != undefined) {
+      if (canvas != undefined) {
         canvas.width = document.body.clientWidth * 0.7;
         canvas.height = document.body.clientHeight * 0.7;
       }
-		}
-		
-		function OnLoad()
-		{
-			OnResize();
-			LoadOnline3DModels();
-		}
-	
-		window.addEventListener('load', OnLoad, true);
+    }
+
+    function OnLoad() {
+      OnResize();
+      LoadOnline3DModels();
+    }
+
+    window.addEventListener('load', OnLoad, true);
     window.addEventListener('resize', OnResize, true);
     window.addEventListener('reloadCanvas', OnLoad, true);
   </script>
 </head>
+
 <body class="mat-typography">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MFBNH9F" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <app-root></app-root>
 </body>
+
 </html>
