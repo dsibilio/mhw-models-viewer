@@ -9,7 +9,6 @@ import { ModelViewerComponent } from './model-viewer/model-viewer.component';
 import { MatTreeModule } from '@angular/material/tree';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
-import { DonationsComponent } from './donations/donations.component';
 import { AboutComponent } from './about/about.component';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatFormFieldModule } from '@angular/material/form-field';
@@ -22,7 +21,6 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
     AppComponent,
     TopBarComponent,
     ModelViewerComponent,
-    DonationsComponent,
     AboutComponent
   ],
   imports: [

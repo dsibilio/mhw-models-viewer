@@ -2,5 +2,10 @@
     <h1><i class="material-icons white-icons">3d_rotation</i> MHW 3D Viewer Online</h1>
 </a>
 
-<a [routerLink]="['/donate']" class="button fancy-button right-aligned"><i class="material-icons">monetization_on</i>Donate!</a>
+<form ngNoForm class="right-aligned" action="https://www.paypal.com/donate" method="post" target="_top">
+    <input type="hidden" name="hosted_button_id" value="2E7Q5EBNJHYAW" />
+    <button type="submit" name="submit" class="button fancy-button" title="Donate with PayPal"
+        alt="Donate with PayPal button"><i class="material-icons">monetization_on</i>Donate!</button>
+    <img alt="" src="https://www.paypal.com/en_IT/i/scr/pixel.gif" width="1" height="1" />
+</form>
 <a [routerLink]="['/about']" class="button fancy-button"><i class="material-icons">account_circle</i>About Me</a>
