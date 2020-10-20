@@ -31,6 +31,7 @@ jobs:
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@v1.5.0
         with:
-          args: deploy --project mhw-model-viewer --only hosting
+          args: deploy --only hosting
         env:
           FIREBASE_TOKEN: ${{ secrets.firebase_token }}
+          PROJECT_ID : mhw-model-viewer
