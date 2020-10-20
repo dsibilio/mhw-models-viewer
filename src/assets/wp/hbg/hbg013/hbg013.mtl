@@ -1,0 +1,35 @@
+# Blender MTL File: 'None'
+# Material Count: 3
+
+newmtl Ch_Wp_Mt__2
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\hbg\hbg013\mod\hbg013_BML.png
+
+newmtl Ch_Wp_Mt__2_hbg013_BML.png
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\hbg\hbg013\mod\hbg013_BML.png
+
+newmtl Ch_Wp_Mt__2_hbg013_BML.png.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\UnchunkedMHW\chunk\wp\hbg\hbg013\mod\hbg013_BML.png
