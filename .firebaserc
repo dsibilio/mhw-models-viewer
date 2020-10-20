@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "mhw-model-viewer": {
+      "hosting": {
+        "mhw-models-viewer": [
+          "mhw-model-viewer"
+        ]
+      }
+    }
+  }
+}
