@@ -135,17 +135,23 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     background-color: #EEEEEE;
   }
 
-  .compact-list-item:hover {
+  .compact-list-item:hover:not(.selected-list-item) {
     background-color: lightgrey;
+    padding: 6px;
+    font-size: medium;
   }
 
-  .list-item:hover {
+  .list-item:hover:not(.selected-list-item) {
     background-color: lightgrey;
+    padding: 8px;
+    font-size: medium;
   }
 
   .selected-list-item {
     background-color: lightgrey;
     font-weight: bold;
+    font-size: medium;
+    padding: 8px;
   }
 
   .bigger-item {
