@@ -34,32 +34,41 @@
 </div>
 
 <div id="model-viewer-container">
-  <form class="filter-form" (ngSubmit)=onFilterSubmit()>
-    <mat-form-field class="filter-input">
-      <input type="text" placeholder="Find a model..." aria-label="Find a model" matInput
-        [formControl]="filterFormControl" [matAutocomplete]="auto" (blur)="resetFilterForm()">
-      <mat-autocomplete #filterAutocomplete autoActiveFirstOption #auto="matAutocomplete">
-        <mat-option *ngFor="let option of filteredOptions | async" [value]="option"
-          (onSelectionChange)=selectModelOnFilter(option)>
-          {{option}}
-        </mat-option>
-      </mat-autocomplete>
-      <div *ngIf="filterSubmitted && filterFormControl.errors" class="invalid-feedback">
-        {{ filterFormControl.errors['filterFormControl'] }}
-      </div>
-    </mat-form-field>
-  </form>
+  <div class="splitscreen">
+    <div class="left">
+      <form class="filter-form" (ngSubmit)=onFilterSubmit()>
+        <mat-form-field class="filter-input">
+          <input type="text" placeholder="Find a model..." aria-label="Find a model" matInput
+            [formControl]="filterFormControl" [matAutocomplete]="auto" (blur)="resetFilterForm()">
+          <mat-autocomplete #filterAutocomplete autoActiveFirstOption #auto="matAutocomplete">
+            <mat-option *ngFor="let option of filteredOptions | async" [value]="option"
+              (onSelectionChange)=selectModelOnFilter(option)>
+              {{option}}
+            </mat-option>
+          </mat-autocomplete>
+          <div *ngIf="filterSubmitted && filterFormControl.errors" class="invalid-feedback">
+            {{ filterFormControl.errors['filterFormControl'] }}
+          </div>
+        </mat-form-field>
+      </form>
+    </div>
 
-  <canvas id="3dcanvas" class="3dviewer"
-    [hidden]="!selectedModel"
-    [attr.bg-color]="backgroundColor ? backgroundColor : '#e6e9ed'"
+    <div class="right" [hidden]="!selectedModel">
+      <label>Background</label>
+      <input type="color" id="canvas-bg-picker" name="canvas-bg-picker" value="#e6e9ed" 
+      [(ngModel)]="backgroundColor" (change)="reloadCanvas()">
+    </div>
+  </div>
+
+  <canvas id="3dcanvas" class="3dviewer" [hidden]="!selectedModel"
+    [attr.bg-color]="backgroundColor"
     [attr.sourcefiles]="selectedModel ? 'assets/' + selectedModel.obj_path + '|assets/' + selectedModel.mtl_path + '|assets/' + selectedModel.tex_path : 'assets/wp/bow/bow001/bow001.obj|assets/wp/bow/bow001/bow001.mtl|assets/wp/bow/bow001/bow001_BML.PNG'">
   </canvas>
 </div>
 
 <div #modelListContainer id="model-list-container">
   <div *ngFor="let alias of aliasesByCategory">
-    <p class="compact-list-item" (click)="selectModelByAlias(alias)"
+    <p class="compact-list-item" (click)="selectModelByAlias(alias); modelListContainer.scrollTop = 0"
       [ngClass]="{'selected-list-item bigger-item': alias === selectedAlias}">
       {{ alias }}
     </p>

@@ -152,3 +152,15 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     padding: 8px 8px;
     font-size: large;
   }
+
+  .splitscreen {
+    display: flex;
+  }
+  
+  .splitscreen .left {
+    flex: 1;
+  }
+  
+  .splitscreen .right {
+    flex: 1;
+  }
