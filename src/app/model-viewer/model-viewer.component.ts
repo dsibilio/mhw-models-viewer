@@ -46,6 +46,7 @@ export class ModelViewerComponent {
   selectedAlias: string;
   selectedCategory: string;
   selectedModel;
+  backgroundColor: string;
 
   filterFormControl = new FormControl();
   filteredOptions: Observable<any>;

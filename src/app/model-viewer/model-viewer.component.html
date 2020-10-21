@@ -52,7 +52,8 @@
 
   <canvas id="3dcanvas" class="3dviewer"
     [hidden]="!selectedModel"
-    [attr.sourcefiles]="selectedModel != undefined ? 'assets/' + selectedModel.obj_path + '|assets/' + selectedModel.mtl_path + '|assets/' + selectedModel.tex_path : 'assets/wp/bow/bow001/bow001.obj|assets/wp/bow/bow001/bow001.mtl|assets/wp/bow/bow001/bow001_BML.PNG'">
+    [attr.bg-color]="backgroundColor ? backgroundColor : '#e6e9ed'"
+    [attr.sourcefiles]="selectedModel ? 'assets/' + selectedModel.obj_path + '|assets/' + selectedModel.mtl_path + '|assets/' + selectedModel.tex_path : 'assets/wp/bow/bow001/bow001.obj|assets/wp/bow/bow001/bow001.mtl|assets/wp/bow/bow001/bow001_BML.PNG'">
   </canvas>
 </div>
 

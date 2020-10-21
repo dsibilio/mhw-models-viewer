@@ -36,6 +36,7 @@ LoadOnline3DModels = function () {
 					return;
 				}
 
+				viewer.SetClearColor(viewerElement.getAttribute('bg-color'));
 				viewer.RemoveMeshes();
 				var currentMeshIndex = 0;
 				var environment = {
