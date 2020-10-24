@@ -1,9 +1,8 @@
 <div id="category-tree-container">
   <mat-tree [dataSource]="dataSource" [treeControl]="treeControl">
-    <mat-tree-node *matTreeNodeDef="let node" matTreeNodeToggle matTreeNodePadding [matTreeNodePaddingIndent]="10"
+    <mat-tree-node *matTreeNodeDef="let node" matTreeNodeToggle matTreeNodePadding [matTreeNodePaddingIndent]="50"
       (click)=selectCategory(node.name) class="list-item"
       [ngClass]="{ 'selected-list-item' : node.name === selectedCategory }">
-      <button mat-icon-button disabled></button>
 
       <ng-container *ngIf="node.type === 'folder'; else specificIconTemplate">
         <mat-icon class="type-icon" [attr.aria-label]="node.type + 'icon'">
@@ -17,8 +16,8 @@
       {{node.name}}
     </mat-tree-node>
 
-    <mat-tree-node *matTreeNodeDef="let node; when: hasChild" matTreeNodePadding class="list-item">
-      <button mat-icon-button matTreeNodeToggle [attr.aria-label]="'Toggle ' + node.name">
+    <mat-tree-node *matTreeNodeDef="let node; when: hasChild" matTreeNodeToggle matTreeNodePadding class="list-item">
+      <button mat-icon-button [attr.aria-label]="'Toggle ' + node.name">
         <mat-icon class="mat-icon-rtl-mirror">
           {{treeControl.isExpanded(node) ? 'expand_more' : 'chevron_right'}}
         </mat-icon>
@@ -60,7 +59,7 @@
     </div>
   </div>
 
-  
+
   <div *ngIf="isReloading()" class="absolute-center">
     <mat-spinner></mat-spinner>
   </div>
