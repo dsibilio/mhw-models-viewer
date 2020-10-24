@@ -1,9 +1,9 @@
 {
   "targets": {
-    "mhw-model-viewer": {
+    "mhw-online-model-viewer": {
       "hosting": {
         "mhw-models-viewer": [
-          "mhw-model-viewer"
+          "mhw-online-model-viewer"
         ]
       }
     }
