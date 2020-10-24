@@ -48,7 +48,7 @@ export class ModelViewerComponent {
   selectedCategory: string;
   selectedModel;
 
-  backgroundColor = '#e6e9ed';
+  backgroundColor = '#a7bedc';
   reloading;
 
   filterFormControl = new FormControl();
