@@ -5,7 +5,8 @@ import { ModelViewerComponent } from './model-viewer/model-viewer.component'
 
 const routes: Routes = [
   { path: '', component: ModelViewerComponent },
-  { path: 'about', component:  AboutComponent }
+  { path: 'about', component:  AboutComponent },
+  { path: 'models/:modelId', component: ModelViewerComponent },
 ];
 
 @NgModule({

@@ -1,4 +1,5 @@
 import { Component, HostListener, ViewChild } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { MatTreeFlatDataSource, MatTreeFlattener } from '@angular/material/tree';
 import { FlatTreeControl } from '@angular/cdk/tree';
 import { categories } from './categories';
@@ -57,7 +58,9 @@ export class ModelViewerComponent {
   @ViewChild('filterAutocomplete', {static: true}) autocomplete: MatAutocomplete;
 
   constructor(
-    private modelsDataService: ModelsDataService
+    private modelsDataService: ModelsDataService,
+    private route: ActivatedRoute,
+    private router: Router
   ) {
     this.treeFlattener = new MatTreeFlattener(
       this.transformer,
@@ -71,6 +74,14 @@ export class ModelViewerComponent {
   }
 
   ngOnInit() {
+    this.route.paramMap.subscribe(params => {
+      let id = params.get("modelId");
+      if(id) {
+          this.selectModelByAlias(id);
+          this.treeControl.expandAll();
+      }
+    });
+
     this.filterFormControl.setValidators(
       control => {
         if (this.modelsDataService.getModelByAlias(control.value) != undefined)
@@ -132,6 +143,7 @@ export class ModelViewerComponent {
     this.selectCategory(this.selectedModel.category);
     this.shiftSelectedElementToTop(alias);
     this.reloadCanvas();
+    this.router.navigate([`/models/${alias}`]);
   }
 
   reloadCanvas() {
