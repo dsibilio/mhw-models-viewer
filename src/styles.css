@@ -161,6 +161,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     font-size: large;
   }
 
+  .sticky {
+    position: sticky;
+    top: 0;
+  }
+
   .splitscreen {
     display: flex;
   }
