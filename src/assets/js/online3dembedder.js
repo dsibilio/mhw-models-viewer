@@ -61,6 +61,7 @@ LoadOnline3DModels = function () {
 
 				var textureLoaded = function () {
 					viewer.Draw();
+					window.dispatchEvent(new Event("reloadComplete"));
 				};
 				JSM.ConvertJSONDataToThreeMeshes(jsonData, textureLoaded, environment);
 			}

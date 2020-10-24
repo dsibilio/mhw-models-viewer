@@ -39,6 +39,20 @@
   height: 50%;
 }
 
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  z-index: 2000;
+}
+
+canvas.inactive {
+  pointer-events: none;
+  visibility: hidden;
+}
+
 canvas {
   border-style: solid;
   border-width: 1px;

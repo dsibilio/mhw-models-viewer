@@ -46,7 +46,9 @@ export class ModelViewerComponent {
   selectedAlias: string;
   selectedCategory: string;
   selectedModel;
+
   backgroundColor = '#e6e9ed';
+  reloading;
 
   filterFormControl = new FormControl();
   filteredOptions: Observable<any>;
@@ -133,7 +135,19 @@ export class ModelViewerComponent {
   }
 
   reloadCanvas() {
-    setTimeout(function () { window.dispatchEvent(new Event("reloadCanvas")); }, 0);
+    this.reloading = true;
+    setTimeout(function () { 
+      window.dispatchEvent(new Event("reloadCanvas"));
+     }, 0);
+  }
+
+  @HostListener('window:reloadComplete',['$event'])
+  onReloadComplete(event) {
+    this.reloading = false;
+  }
+
+  isReloading() {
+    return this.reloading;
   }
 
   /** Transform the data to something the tree can read. */

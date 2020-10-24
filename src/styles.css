@@ -170,3 +170,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   .splitscreen .right {
     flex: 1;
   }
+
+  .mat-progress-spinner circle, .mat-spinner circle {
+    stroke: #1976d2;
+}
