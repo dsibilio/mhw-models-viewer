@@ -1,10 +1,21 @@
-.right-aligned {
+  .right-aligned {
     margin-left: auto;
     margin-right: 1%;
-}
-
- .white-icons {
-    color: white;
-    padding-right: 4px;
-    padding-top: 8px;
   }
+
+  .white-icons {
+    color: white;
+    padding-right: 5px;
+    padding-top: 8px;
+    margin-bottom: 11px;
+  }
+
+  .centered-flex {
+    display: flex;
+    align-items: center;
+  }
+
+  .bottom-aligned {
+    margin-top: 15px;
+  }
+
