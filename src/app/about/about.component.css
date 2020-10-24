@@ -1,0 +1,32 @@
+.left {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right {
+    margin-left: 3%;
+}
+
+.avatar {
+    width: 270px;
+    height: 270px;
+    margin-top: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #1976d2;
+}
+
+p {
+    width: 45%;
+}
+
+.link-button { 
+    background: none;
+    border: none;
+    color: #0066ff;
+    cursor: pointer; 
+}
+
+.inline {
+    display: inline;
+}
