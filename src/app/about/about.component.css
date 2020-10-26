@@ -30,3 +30,42 @@ p {
 .inline {
     display: inline;
 }
+
+@media screen and (max-width: 768px) {
+
+    .splitscreen {
+        display: block;
+    }
+
+    .left {
+        flex: none;
+        max-width: 100%;
+    }
+
+    .right {
+        flex: none;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        max-width: 100%;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    .avatar {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .absolute-center {
+        margin-top: 5%;
+        top: auto;
+        left: auto;
+        margin-right: auto;
+        transform: none;
+        z-index: 2000;
+      }
+
+}
