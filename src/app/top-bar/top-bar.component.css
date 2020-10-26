@@ -36,4 +36,8 @@
       padding-right: 0px;
     }
 
+    form {
+      display: flex;
+    }
+
 }
