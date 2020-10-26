@@ -49,3 +49,24 @@ canvas {
   border-width: 1px;
   border-color: darkgray;
 }
+
+@media screen and (max-width: 768px) {
+
+  #category-tree-container {
+    visibility: hidden;
+  }
+
+  #model-list-container {
+    visibility: hidden;
+  }
+
+  .filter-form {
+    min-width: auto;
+    max-width: none;
+  }
+
+  #canvas-bg-picker {
+    margin-left: 5%;
+  }
+
+}
