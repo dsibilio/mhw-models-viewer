@@ -27,7 +27,7 @@ LoadOnline3DModels = function () {
 					cameraUpVector: [0.0, 0.0, 1.0]
 				};
 
-				if(!viewer) {
+				if (!viewer) {
 					viewer = new JSM.ThreeViewer();
 				}
 
@@ -51,12 +51,22 @@ LoadOnline3DModels = function () {
 					},
 					onFinish: function (meshes) {
 						if (meshes.length > 0) {
+							// Flip model vertically if it's a monster
+							if (urls.indexOf('em/em') != -1) {
+								var eye = new JSM.Coord(6.0, -5.5, 4.0);
+								var center = new JSM.Coord(0.0, 0.0, 0.0);
+								var up = new JSM.Coord(0.0, 0.0, -1.0);
+								viewer.cameraMove.Set(eye, center, up);
+							}
 							viewer.AdjustClippingPlanes(50.0);
 							viewer.FitInWindow();
 						}
+
 						viewer.EnableDraw(true);
 						viewer.Draw();
-						if(urlList[urlList.length - 1].endsWith('null')) {
+
+						// Signal canvas reload completion even if textures are missing
+						if (urlList[urlList.length - 1].endsWith('null')) {
 							window.dispatchEvent(new Event("reloadComplete"));
 						}
 					}
