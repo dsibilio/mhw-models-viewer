@@ -10,7 +10,7 @@ import lxml.html as lh
 import requests
 
 
-class Weapon:
+class Model:
     def __init__(self, id, aliases, obj_path, mtl_path, tex_path, category):
         self.id = id
         self.aliases = aliases
@@ -32,7 +32,7 @@ mod_extension = '.obj'
 mat_extension = '.mtl'
 tex_extension = '.PNG'
 
-def get_db_rows():
+def get_db_rows(db_suffix):
     headers = {
         'Access-Control-Allow-Origin': '*',
         'Access-Control-Allow-Methods': 'GET',
@@ -40,27 +40,36 @@ def get_db_rows():
         'Access-Control-Max-Age': '3600',
         'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
         }
-    mhw_db_url = 'https://mhw.poedb.tw/eng/wp_weapon'
+    mhw_db_url = 'https://mhw.poedb.tw/eng/' + db_suffix
     req = requests.get(mhw_db_url, headers)
     doc = lh.fromstring(req.content)
     return doc.xpath('//tr')
 
-db_rows = get_db_rows()
-weapons = []
+wp_db_rows = get_db_rows('wp_weapon')
+em_db_rows = get_db_rows('em')
+
+models = []
 id = 0
 for subdir, dirs, files in os.walk(rootdir):
-    wp_identifier = str(Path(subdir).relative_to(rootdir)).replace('\\', '/')
+    model_identifier = str(Path(subdir).relative_to(rootdir)).replace('\\', '/')
     
     #get all aliases and category from table
     aliases = []
     category = None
 
-    for row in db_rows:
-        cells = row.getchildren()
-        if cells and cells[4].text_content() == wp_identifier:
-            aliases.append(cells[2].text_content())
-            if not category:
-                category = wp_category_mapping.get(cells[0].text_content())
+    if model_identifier.startswith('wp'):
+        for row in wp_db_rows:
+            cells = row.getchildren()
+            if cells and cells[4].text_content() == model_identifier:
+                aliases.append(cells[2].text_content())
+                if not category:
+                    category = wp_category_mapping.get(cells[0].text_content())
+    elif model_identifier.startswith('em'):
+        category = 'Monster'
+        for row in em_db_rows:
+            cells = row.getchildren()
+            if cells and cells[0].text_content().replace(' ', '/') in model_identifier:
+                aliases.append(cells[1].text_content())
 
     if aliases:
         #remove duplicates from aliases
@@ -80,7 +89,7 @@ for subdir, dirs, files in os.walk(rootdir):
             mtl_path = None
             tex_path = None
             for file in files:
-                relative_file_path = os.path.join(wp_identifier, file).replace('\\', '/')
+                relative_file_path = os.path.join(model_identifier, file).replace('\\', '/')
                 if(file.endswith(mod_extension)):
                     obj_path = relative_file_path
                 elif(file.endswith(mat_extension)):
@@ -89,14 +98,14 @@ for subdir, dirs, files in os.walk(rootdir):
                     tex_path = relative_file_path
             
             id += 1
-            weapons.append(Weapon(id, aliases, obj_path, mtl_path, tex_path, category).__dict__)
-            print(Weapon(id, aliases, obj_path, mtl_path, tex_path, category).__dict__)
+            models.append(Model(id, aliases, obj_path, mtl_path, tex_path, category).__dict__)
+            print(Model(id, aliases, obj_path, mtl_path, tex_path, category).__dict__)
 
             #add aliases to previously encountered aliases
             aliases_by_category[category].append(aliases)
             #prepare file bundle for assets
-            shutil.copytree(subdir, wp_identifier)
+            shutil.copytree(subdir, model_identifier)
 
 #save model file
-with open('weapons.json', 'w') as output:
-    json.dump(weapons, output, indent=4)
+with open('models.json', 'w') as output:
+    json.dump(models, output, indent=4)
