@@ -50,6 +50,10 @@ canvas {
   border-color: darkgray;
 }
 
+.unique-parent {
+  padding-left: 20% !important;
+}
+
 @media screen and (max-width: 768px) {
 
   #category-tree-container {

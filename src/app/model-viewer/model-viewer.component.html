@@ -2,7 +2,7 @@
   <mat-tree [dataSource]="dataSource" [treeControl]="treeControl">
     <mat-tree-node *matTreeNodeDef="let node" matTreeNodeToggle matTreeNodePadding [matTreeNodePaddingIndent]="50"
       (click)="selectCategory(node.name); modelListContainer.scrollTop = 0" class="list-item"
-      [ngClass]="{ 'selected-list-item' : node.name === selectedCategory }">
+      [ngClass]="{ 'selected-list-item' : node.name === selectedCategory, 'unique-parent': node.level === 0 }">
 
       <ng-container *ngIf="node.type === 'folder'; else specificIconTemplate">
         <mat-icon class="type-icon" [attr.aria-label]="node.type + 'icon'">

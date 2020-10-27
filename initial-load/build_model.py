@@ -65,7 +65,7 @@ for subdir, dirs, files in os.walk(rootdir):
                 if not category:
                     category = wp_category_mapping.get(cells[0].text_content())
     elif model_identifier.startswith('em'):
-        category = 'Monster'
+        category = 'Monsters'
         for row in em_db_rows:
             cells = row.getchildren()
             if cells and cells[0].text_content().replace(' ', '/') in model_identifier:

@@ -56,6 +56,9 @@ LoadOnline3DModels = function () {
 						}
 						viewer.EnableDraw(true);
 						viewer.Draw();
+						if(urlList[urlList.length - 1].endsWith('null')) {
+							window.dispatchEvent(new Event("reloadComplete"));
+						}
 					}
 				};
 

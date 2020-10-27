@@ -55,7 +55,7 @@ export class ModelViewerComponent {
   filteredOptions: Observable<any>;
   filterSubmitted: boolean;
 
-  @ViewChild('filterAutocomplete', {static: true}) autocomplete: MatAutocomplete;
+  @ViewChild('filterAutocomplete', { static: true }) autocomplete: MatAutocomplete;
 
   constructor(
     private modelsDataService: ModelsDataService,
@@ -76,9 +76,9 @@ export class ModelViewerComponent {
   ngOnInit() {
     this.route.paramMap.subscribe(params => {
       let id = params.get("modelId");
-      if(id) {
-          this.selectModelByAlias(id);
-          this.treeControl.expandAll();
+      if (id) {
+        this.selectModelByAlias(id);
+        this.expandCategories();
       }
     });
 
@@ -107,8 +107,14 @@ export class ModelViewerComponent {
     this.shiftSelectedElementToTop(this.selectedAlias);
   }
 
+  expandCategories() {
+    let currentNode = this.treeControl.dataNodes.filter(node => this.selectedCategory === node.name)[0];
+    let parentNode = this.treeControl.dataNodes.filter(node => currentNode.type === node.name.toLowerCase())[0];
+    this.treeControl.expand(parentNode);
+  }
+
   shiftSelectedElementToTop(alias: string) {
-    if(alias != undefined) {
+    if (alias != undefined) {
       const index = this.aliasesByCategory.indexOf(alias);
       this.aliasesByCategory.unshift(this.aliasesByCategory[index]);
       this.aliasesByCategory.splice(index + 1, 1);
@@ -122,11 +128,11 @@ export class ModelViewerComponent {
   selectModelOnFilter(alias: string) {
     this.filterSubmitted = true;
     this.selectModelByAlias(alias);
-    this.treeControl.expandAll();
+    this.expandCategories();
   }
 
   resetFilterForm() {
-    if(this.filterFormControl.errors && !this.autocomplete.isOpen) {
+    if (this.filterFormControl.errors && !this.autocomplete.isOpen) {
       this.filterSubmitted = false;
       this.filterFormControl.reset();
       this.filterFormControl.setErrors(null);
@@ -134,13 +140,19 @@ export class ModelViewerComponent {
   }
 
   selectModelByAlias(alias: string) {
-    if(this.selectedModel != undefined) {
+    if (this.selectedModel != undefined) {
       this.aliasesByCategory.shift();
     }
 
     this.selectedAlias = alias;
     this.selectedModel = this.modelsDataService.getModelByAlias(alias);
     this.selectCategory(this.selectedModel.category);
+
+    // Avoid loading textures for monsters since rendering is too heavy
+    if (this.selectedCategory === 'Monsters') {
+      this.selectedModel.tex_path = null;
+    }
+
     this.shiftSelectedElementToTop(alias);
     this.reloadCanvas();
     this.router.navigate([`/models/${alias}`]);
@@ -148,12 +160,12 @@ export class ModelViewerComponent {
 
   reloadCanvas() {
     this.reloading = true;
-    setTimeout(function () { 
+    setTimeout(function () {
       window.dispatchEvent(new Event("reloadCanvas"));
-     }, 0);
+    }, 0);
   }
 
-  @HostListener('window:reloadComplete',['$event'])
+  @HostListener('window:reloadComplete', ['$event'])
   onReloadComplete(event) {
     this.reloading = false;
   }

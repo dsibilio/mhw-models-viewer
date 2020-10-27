@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import models from '../assets/weapons.json';
+import models from '../assets/models.json';
 
 @Injectable({
   providedIn: 'root'

@@ -2,77 +2,83 @@ export const categories = [
   {
     name: 'Weapons',
     type: 'folder',
+    id: 0,
     children: [
       {
         id: 0,
         name: 'Bow',
-        type: 'weapon'
+        type: 'weapons'
       },
       {
         id: 1,
         name: 'Charge Blade',
-        type: 'weapon'
+        type: 'weapons'
       },
       {
         id: 2,
         name: 'Dual Blades',
-        type: 'weapon'
+        type: 'weapons'
       },
       {
         id: 3,
         name: 'Great Sword',
-        type: 'weapon'
+        type: 'weapons'
       },
       {
         id: 4,
         name: 'Gun Lance',
-        type: 'weapon'
+        type: 'weapons'
       },
       {
         id: 5,
         name: 'Hammer',
-        type: 'weapon'
+        type: 'weapons'
       },
       {
         id: 6,
         name: 'Heavy Bowgun',
-        type: 'weapon'
+        type: 'weapons'
       },
       {
         id: 7,
         name: 'Hunting Horn',
-        type: 'weapon'
+        type: 'weapons'
       },
       {
         id: 8,
         name: 'Insect Glaive',
-        type: 'weapon'
+        type: 'weapons'
       },
       {
         id: 9,
         name: 'Lance',
-        type: 'weapon'
+        type: 'weapons'
       },
       {
         id: 10,
         name: 'Light Bowgun',
-        type: 'weapon'
+        type: 'weapons'
       },
       {
         id: 11,
         name: 'Long Sword',
-        type: 'weapon'
+        type: 'weapons'
       },
       {
         id: 12,
         name: 'Switch Axe',
-        type: 'weapon'
+        type: 'weapons'
       },
       {
         id: 13,
         name: 'Sword and Shield',
-        type: 'weapon'
+        type: 'weapons'
       }
     ]
+  },
+  {
+    name: 'Monsters',
+    type: 'monsters',
+    id: 1
   }
 ];
