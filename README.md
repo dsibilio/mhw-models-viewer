@@ -1,5 +1,7 @@
 # MHW 3D Model Viewer Online
 
+![GitHub](https://img.shields.io/github/license/dsibilio/mhw-models-viewer)
+
 Check out this project live over at https://mhw-online-model-viewer.web.app/!
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
